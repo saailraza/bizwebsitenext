@@ -1,0 +1,11 @@
+{
+ "items": [
+  {"id":"accountant","title":"Accountant / Bookkeeper","type":"Full-time","location":"Islamabad","summary":"Day-to-day bookkeeping, reconciliations and monthly reporting for local and overseas clients.","active":true},
+  {"id":"tax-consultant","title":"Tax Consultant","type":"Full-time","location":"Islamabad","summary":"Income tax, sales tax and withholding returns with FBR, PRA and SRB.","active":true},
+  {"id":"audit-associate","title":"Audit Associate","type":"Full-time","location":"Islamabad","summary":"Internal and external audit assignments across industries.","active":true},
+  {"id":"bd-international","title":"Business Development Executive (International)","type":"Full-time","location":"Islamabad","summary":"Grow our client base in the Gulf, the UK and the US.","active":true},
+  {"id":"web-erp","title":"Web Developer / ERP Support","type":"Full-time","location":"Islamabad","summary":"Websites, ERP configuration and client support.","active":true},
+  {"id":"digital-marketing","title":"Digital Marketing Specialist","type":"Full-time","location":"Islamabad","summary":"Social media, search and paid campaigns for our brand and clients.","active":true},
+  {"id":"internship","title":"Internship Programme","type":"Internship","location":"Islamabad","summary":"Hands-on training in accounting, tax and audit.","active":true}
+ ]
+}

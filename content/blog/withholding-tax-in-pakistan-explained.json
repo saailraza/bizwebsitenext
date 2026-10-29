@@ -1,0 +1,31 @@
+{
+ "slug": "withholding-tax-in-pakistan-explained",
+ "title": "Withholding Tax in Pakistan Explained: Sections 149, 151, 152, 153 and More",
+ "description": "Plain-English guide to withholding tax in Pakistan: who must deduct, which payments are covered, filer and non-filer rates, and common compliance mistakes.",
+ "category": "Pakistan Taxation",
+ "date": "2026-07-12",
+ "lead": "Plain-English guide to withholding tax in Pakistan: who must deduct, which payments are covered, filer and non-filer rates, and common compliance mistakes.",
+ "body": "<p>Withholding tax (WHT) is the system under which the person making a payment deducts income tax at source and deposits it with the government. In Pakistan it is a major source of revenue, so almost every business must deal with it.</p>\n<h2>How withholding works</h2>\n<p>When a company pays a supplier, contractor, landlord, employee or foreign vendor, it may have to deduct a percentage as tax and deposit it into the government treasury. The payee later claims this as a credit in their own return, or it becomes the final tax depending on the section.</p>\n<h2>Common sections businesses meet</h2>\n<ul><li>Section 149: salary income, deducted by the employer on slab rates</li><li>Section 151: profit on debt such as bank profit and savings certificates</li><li>Section 152: payments to non-residents, including royalties and technical fees</li><li>Section 153: payments for goods, services and execution of contracts</li><li>Section 155: rent of immovable property</li><li>Section 236 series: telephone, auctions, property and other specified transactions</li></ul>\n<h2>Why rates differ</h2>\n<p>Rates depend on the type of payment, whether the recipient is a company or an individual or AOP, and whether the recipient is on the Active Taxpayer List. Non-filers usually face higher rates. Some payments are a final tax, others are minimum tax or adjustable.</p>\n<h2>Typical mistakes</h2>\n<ol><li>Deducting at the wrong rate or under the wrong section</li><li>Not collecting NTN and filer status before payment</li><li>Deducting tax but depositing it late</li><li>Skipping monthly withholding statements, which can disallow expenses and attract penalties</li></ol>\n<h2>Use our free tool, then verify</h2>\n<p>Our Pakistan Withholding Tax Finder lets you search by payment type and see the section, rate and nature of the tax. Rates change with each Finance Act, so always confirm the current rate before filing.</p>\n<p>BIZEASE SOLUTIONS manages monthly withholding computation, deposit and statement filing for businesses of all sizes.</p>",
+ "tags": "#WithholdingTaxPakistan #FBR #Section153 #TaxCompliance #IncomeTaxOrdinance #PakistanBusiness",
+ "related": [
+  {
+   "href": "/tax-consultant-pakistan/",
+   "cat": "Service",
+   "title": "Tax Consultant",
+   "desc": "Tax consultants in Islamabad for FBR income tax returns, NTN registration, sales tax (FBR, PRA, SRB), withholding tax…"
+  },
+  {
+   "href": "/ntn-registration-pakistan/",
+   "cat": "Service",
+   "title": "NTN Registration",
+   "desc": "Get your NTN registered and stay on the FBR Active Taxpayer List. NTN for individuals, sole proprietors, AOPs and…"
+  },
+  {
+   "href": "/payroll-hr-outsourcing-pakistan/",
+   "cat": "Service",
+   "title": "Payroll & HR",
+   "desc": "Payroll processing, attendance and biometrics, provident fund, gratuity and HR policy manuals for companies in…"
+  }
+ ],
+ "published": true
+}
