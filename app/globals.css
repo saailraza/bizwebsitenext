@@ -324,3 +324,7 @@ nav a:after{left:9px;right:9px}
 .art .cta{background:var(--hero);color:#fff;border-radius:20px;padding:30px;margin:40px 0 10px}.art .cta h3{margin:0 0 6px;color:#fff}.art .cta p{margin:0 0 8px;color:#e9efe9;font-size:1rem}
 .rel{margin-top:44px}.rel h3{margin-bottom:14px}
 .blogg .card.hide{display:none}
+
+/* BIZEASE DESK header dropdown */
+.hdesk{position:relative}.hdesk .dm{left:auto;right:0}
+@media(max-width:1240px){.hdesk .dm{display:none!important}}

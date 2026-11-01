@@ -4,9 +4,11 @@ import { usePathname } from 'next/navigation';
 import { useEffect, useState } from 'react';
 import Icon from './Icon';
 import { NAV } from '@/lib/site';
+import { DESKS } from '@/lib/desk';
 
 function isActive(href, path) {
   if (href === '/') return path === '/';
+  if (href === '/desk/') return path.startsWith('/desk/') || path.startsWith('/cfo-desk/');
   if (href === '/tax-calculators/') return path.startsWith('/tax-calculators/') || path.startsWith('/financial-calculators/');
   return path.startsWith(href);
 }
@@ -75,10 +77,20 @@ export default function Header() {
           <button className="tbtn" id="th" aria-label="Toggle theme" title="Toggle theme" onClick={toggleTheme}>
             🌓
           </button>
-          <Link className="hbtn cfob" href="/cfo-desk/" title="CFO Desk: free financial analysis">
-            <Icon n="trend" s={16} />
-            CFO<span className="cw"> Desk</span>
-          </Link>
+          <div className={'dd hdesk' + (shut === 'desk' ? ' shut' : '')} onMouseLeave={() => setShut('')}>
+            <Link className="hbtn cfob" href="/desk/" title="BIZEASE DESK: free business and finance tools" onClick={() => setShut('desk')}>
+              <Icon n="trend" s={16} />
+              <span className="cw">BIZEASE </span>DESK
+            </Link>
+            <div className="dm" onClick={() => setShut('desk')}>
+              {DESKS.map((d) => (
+                <Link key={d.slug} href={d.slug === 'cfo' ? '/desk/cfo/' : `/desk/${d.slug}/`}>
+                  {d.name}
+                </Link>
+              ))}
+              <Link href="/cfo-desk/">Financial Statement Analyzer</Link>
+            </div>
+          </div>
           <Link className="hbtn cta" href="/contact/">
             Free Consultation
           </Link>

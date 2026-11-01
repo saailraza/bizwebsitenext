@@ -1,0 +1,13 @@
+{
+  "updated": "2026-11-01",
+  "note": "Figures used by BIZEASE DESK tools. Change them here (or in the admin panel later) and every tool updates. Always keep 'source' filled in.",
+  "land": {
+    "marlaSqft": 272.25,
+    "marlaPerKanal": 20,
+    "marlaPerAcre": 160,
+    "sqftPerSqYard": 9,
+    "sqftPerSqMeter": 10.7639104167,
+    "source": "https://en.wikipedia.org/wiki/Marla_(unit)",
+    "checked": "2026-11-01"
+  }
+}

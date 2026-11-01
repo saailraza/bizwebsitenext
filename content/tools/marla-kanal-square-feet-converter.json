@@ -1,0 +1,44 @@
+{
+  "slug": "marla-kanal-square-feet-converter",
+  "desk": "industry",
+  "component": "marla",
+  "name": "Marla, Kanal and Square Feet Converter",
+  "h1": "Marla, Kanal and Square Feet Converter",
+  "title": "Marla, Kanal and Square Feet Converter Pakistan",
+  "description": "Convert marla, kanal, acre, square feet, square yards and square meters in one step. Free plot area converter for Pakistan with a choice of marla size.",
+  "updated": "2026-11-01",
+  "lead": "Type an area in any unit and see it in marla, kanal, acre, square feet, square yards and square meters at once.",
+  "profile": false,
+  "intro": [
+    "Plots in Pakistan are sold in marla and kanal, but building plans, tax records and bank valuations often use square feet or square yards. This converter moves between them so you can compare listings and check what a plot really measures.",
+    "Everything is calculated in your browser. Nothing you type is sent to BIZEASE."
+  ],
+  "how": [
+    "The standard marla used in most of Pakistan is 272.25 square feet, which is 30.25 square yards.",
+    "1 kanal = 20 marla = 5,445 square feet.",
+    "1 acre = 8 kanal = 160 marla = 43,560 square feet.",
+    "The tool converts your input to square feet first, then divides by each unit's size. You can change the marla size if your area uses a different one."
+  ],
+  "example": "A 10 marla plot is 10 × 272.25 = 2,722.5 square feet, which is 302.5 square yards and half a kanal.",
+  "mistakes": [
+    "Using 225 square feet per marla. That is the size used in India and Bangladesh, not the standard marla in most of Pakistan.",
+    "Mixing up a plot's covered area with its land area. A 10 marla plot with a double-storey house has more covered area than land area.",
+    "Trusting an advertised size without checking the registry or fard. Always confirm the measured area in the documents."
+  ],
+  "faq": [
+    { "q": "How many square feet are in one marla?", "a": "In most of Pakistan one marla is 272.25 square feet (30.25 square yards). Some local records use other sizes, so confirm with the revenue record for your plot." },
+    { "q": "How many marla are in one kanal?", "a": "One kanal is 20 marla, which is 5,445 square feet at the standard marla size." },
+    { "q": "How many marla are in one acre?", "a": "One acre is 160 marla, or 8 kanal, which is 43,560 square feet." },
+    { "q": "Can I use a different marla size?", "a": "Yes. Change the marla size field to your local value and all results update." },
+    { "q": "Is this converter accurate for registry work?", "a": "It does the arithmetic correctly for the sizes you choose. For registry, transfer or tax purposes use the area written in your official documents and confirm with your sub-registrar or a qualified adviser." }
+  ],
+  "related": {
+    "tools": [],
+    "blogs": ["marla-kanal-and-square-feet-land-measurement-in-pakistan"],
+    "services": [
+      { "href": "/tax-consultant-pakistan/", "label": "Tax consultant in Pakistan" },
+      { "href": "/business-consultants-islamabad/", "label": "Business consultants in Islamabad" }
+    ]
+  },
+  "disclaimer": "This tool gives estimates from the figures you enter. It is not a survey and not legal advice."
+}

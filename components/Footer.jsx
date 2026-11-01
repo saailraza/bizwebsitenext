@@ -8,6 +8,7 @@ const COMPANY = [
   ['/services/', 'Services'],
   ['/tax-calculators/', 'Tax Calculators'],
   ['/financial-calculators/', 'Financial Calculators'],
+  ['/desk/', 'BIZEASE DESK'],
   ['/cfo-desk/', 'CFO Desk'],
   ['/applications/', 'Applications'],
   ['/resources/', 'Resources'],
