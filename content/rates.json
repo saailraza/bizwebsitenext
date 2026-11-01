@@ -15,5 +15,56 @@
     "note": "Standard federal sales tax rate on registered supplies of goods. Provincial services rates differ and may change each year; the tools let the user type any rate.",
     "source": "https://www.vatupdate.com/2025/08/25/fbr-announces-revised-sales-tax-rates-and-provisions-for-2025-26-fiscal-year",
     "checked": "2026-11-01"
+  },
+  "calendar": {
+    "checked": "2026-11-01",
+    "sources": {
+      "fbrItr": {
+        "name": "FBR income tax due dates",
+        "url": "https://www.fbr.gov.pk/categ/income-tax-due-dates/51149/40846/81148"
+      },
+      "fbrSales": {
+        "name": "FBR sales tax due dates",
+        "url": "https://fbr.gov.pk/sales-tax-due-dates/51148/101162"
+      },
+      "withholding": {
+        "name": "ICT Pakistan tax calendar 2026",
+        "url": "https://www.ict.edu.pk/blogs/pakistan-tax-calendar-2026"
+      },
+      "advInd": {
+        "name": "FBR advance tax calendar (individuals and AOPs)",
+        "url": "https://www.fbr.gov.pk/DisplayDocs/158"
+      },
+      "advCo": {
+        "name": "pkrevenue.com advance tax TY2027 (companies)",
+        "url": "https://pkrevenue.com/advance-tax-payment-deadlines-pakistan-ty2027/"
+      },
+      "secp": {
+        "name": "Legum Law Firm, annual company compliance",
+        "url": "https://legumlawfirm.co/updates/2026/annual-company-compliance-pakistan-agm-audit-returns/"
+      },
+      "secp2": {
+        "name": "Lex-Form, SECP annual compliance",
+        "url": "https://lex-form.com/blog/secp-annual-compliance-private-limited-company-pakistan-2026.html"
+      }
+    },
+    "rules": {
+      "agmDaysAfterYearEnd": 120,
+      "agmExtensionDays": 30,
+      "firstAgmMonths": 16,
+      "annualReturnDaysAfterAgm": 30,
+      "accountsDaysAfterAgm": 15,
+      "changeFilingDays": 15
+    },
+    "extensions": [
+      {
+        "key": "itr-ind-2026",
+        "what": "Income tax return, tax year 2026 (individuals and AOPs)",
+        "original": "2026-09-30",
+        "extendedTo": "2026-10-31",
+        "note": "FBR extended 30 Sep to 15 Oct, then to 31 Oct 2026.",
+        "source": "https://www.dawn.com/news/2037394"
+      }
+    ]
   }
 }

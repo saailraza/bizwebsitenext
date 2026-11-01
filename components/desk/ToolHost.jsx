@@ -9,6 +9,8 @@ const DOC_IDS = ['invoice', 'quote', 'memo', 'challan', 'po', 'receipt', 'vouche
 
 // Add one line here for every other tool: key (the "component" field in content/tools/*.json) -> component.
 const TOOLS = {
+  fbrdates: dynamic(() => import('./tools/FbrDates'), { ssr: false, loading }),
+  calendar: dynamic(() => import('./tools/CompanyCalendar'), { ssr: false, loading }),
   marla: dynamic(() => import('./tools/MarlaConverter'), { ssr: false, loading }),
 };
 

@@ -1,0 +1,31 @@
+{
+  "slug": "secp-annual-compliance-for-a-private-limited-company-in-pakistan",
+  "title": "SECP Annual Compliance for a Private Limited Company in Pakistan",
+  "description": "The yearly SECP checklist for a private limited company: annual general meeting, annual return, financial statements and event-based filings.",
+  "category": "Pakistan Business",
+  "date": "2026-11-01",
+  "lead": "The yearly SECP checklist for a private limited company: annual general meeting, annual return, financial statements and event-based filings.",
+  "body": "<p>Registering a company is the start, not the end. Every year a private limited company has meetings to hold and documents to file with SECP. This guide sets out the usual timeline under the Companies Act, 2017.</p><p><b>Note on sources:</b> the numbers below come from two law-firm guides to the Act that agree with each other. We could not read the Act's section text itself, so confirm with SECP or your company secretary before you rely on a date.</p><h2>1. Annual general meeting (section 132)</h2><ul><li>Held within 120 days of the end of the financial year. The registrar can extend this by up to 30 days for special reasons.</li><li>The first AGM is due within 16 months of incorporation.</li><li>Single member companies are exempt from holding an AGM.</li></ul><h2>2. Annual return (section 130)</h2><p>Form A (Form B for companies without share capital) is filed within 30 days of the AGM. If no AGM is held, the guides count the 30 days from 31 December. Some small companies may not need to file if nothing has changed.</p><h2>3. Financial statements (section 233)</h2><p>Most private companies that must file send a copy of their audited statements within 15 days of the AGM. Companies with small paid-up capital may be exempt, subject to SECP notifications.</p><h2>4. Event-based filings</h2><p>Changes in directors or officers, and changes concerning the auditor, are reported within 15 days (section 197).</p><h2>Example</h2><p>A company with a 31 December year-end must hold its AGM by 30 April. If the AGM is on 20 April, the annual return is due by 20 May and the accounts copy by 5 May.</p><h2>What happens if you miss them</h2><p>The guides describe fines under the Act's scale with a daily penalty while the default continues. Failing to file for two years in a row can lead to the company being placed on SECP's inactive list and, in the end, struck off.</p><p>Our free <a href=\"/desk/compliance/pakistan-compliance-calendar/\">Pakistan Business Compliance Calendar</a> works these dates out from your year-end and AGM date and combines them with FBR deadlines. If you are still setting up, read <a href=\"/blog/how-to-register-a-company-in-pakistan-secp/\">how to register a company in Pakistan with SECP</a>.</p><p>Sources: <a href=\"https://legumlawfirm.co/updates/2026/annual-company-compliance-pakistan-agm-audit-returns/\" rel=\"noopener noreferrer\">Legum Law Firm</a> and <a href=\"https://lex-form.com/blog/secp-annual-compliance-private-limited-company-pakistan-2026.html\" rel=\"noopener noreferrer\">Lex-Form</a>.</p>",
+  "tags": "#SECP #CompaniesAct2017 #AnnualReturn #AGM #PrivateLimited #Compliance",
+  "related": [
+    {
+      "href": "/desk/compliance/pakistan-compliance-calendar/",
+      "cat": "Tool",
+      "title": "Compliance Calendar",
+      "desc": "FBR and SECP due dates in one list."
+    },
+    {
+      "href": "/company-registration-pakistan/",
+      "cat": "Service",
+      "title": "Company Registration",
+      "desc": "SECP incorporation and post-registration filings."
+    },
+    {
+      "href": "/audit-services-pakistan/",
+      "cat": "Service",
+      "title": "Audit Services",
+      "desc": "Audit and compliance support for companies."
+    }
+  ],
+  "published": true
+}

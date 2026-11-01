@@ -1,0 +1,78 @@
+{
+  "desk": "compliance",
+  "updated": "2026-11-01",
+  "profile": false,
+  "disclaimer": "This calendar shows the due dates found in the sources listed under it. Tax and company law deadlines are often extended or changed, and some depend on your own facts. Confirm with FBR, SECP or a qualified adviser before relying on a date. It is not legal or tax advice.",
+  "slug": "pakistan-compliance-calendar",
+  "component": "calendar",
+  "name": "Pakistan Business Compliance Calendar",
+  "h1": "Pakistan Business Compliance Calendar",
+  "title": "Pakistan Business Compliance Calendar: FBR and SECP Due Dates",
+  "description": "Get a dated compliance calendar for your Pakistani business: FBR tax dates plus SECP annual general meeting, annual return and accounts deadlines. Free, with Excel and calendar download.",
+  "lead": "Choose your business type and year-end to get FBR and SECP deadlines in one dated list.",
+  "intro": [
+    "A company in Pakistan answers to two regulators. FBR sets tax dates. SECP sets company-law dates such as the annual general meeting, annual return and accounts. This calendar puts both in one list.",
+    "Enter your financial year-end and, if you know them, your AGM and incorporation dates. The tool works out the later dates from those. Print it, download it for Excel, or add it to your phone calendar."
+  ],
+  "how": [
+    "AGM: within 120 days of the financial year end; the registrar can extend by up to 30 days. The first AGM is due within 16 months of incorporation. Single member companies have no AGM.",
+    "Annual return (Form A): within 30 days of the AGM.",
+    "Copy of financial statements to the registrar: within 15 days of the AGM for companies that must file.",
+    "Changes in directors or officers: within 15 days (event-based).",
+    "FBR dates are the same as in the FBR Due Dates Calendar, including its advance tax warnings.",
+    "If you enter your AGM date, the return and accounts dates are worked from it. If not, they assume the AGM is held on the last permitted day."
+  ],
+  "example": "A private company with a 31 December year-end must hold its AGM by 30 April. If the AGM is on 20 April, the annual return is due by 20 May and the accounts copy by 5 May.",
+  "mistakes": [
+    "Counting the annual return from the year end instead of from the AGM date.",
+    "Forgetting that a new company has its own first AGM deadline.",
+    "Treating event-based filings (directors, auditor) as yearly.",
+    "Not checking SECP notifications, which can change exemptions and fees."
+  ],
+  "faq": [
+    {
+      "q": "Where do the SECP dates come from?",
+      "a": "From two law-firm guides to the Companies Act, 2017 that agree on the numbers (sections 130, 132, 233 and 197). The Act's own text could not be retrieved for this check, so confirm with SECP or your company secretary."
+    },
+    {
+      "q": "What if I do not hold an AGM?",
+      "a": "The guides say the 30 days for the annual return then run from 31 December. Not holding the AGM is itself a default, so speak to your company secretary."
+    },
+    {
+      "q": "Do small companies have to file?",
+      "a": "The guides mention exemptions for some small companies, such as filing financial statements or an unchanged annual return. These depend on SECP notifications, so check the current position."
+    },
+    {
+      "q": "Why is there no registration fee estimator yet?",
+      "a": "SECP has revised its fee schedule several times and reliable sources disagree on the current figures. We will add it once we can show verified numbers."
+    },
+    {
+      "q": "Is any data sent to BIZEASE?",
+      "a": "No. The calendar runs in your browser."
+    }
+  ],
+  "related": {
+    "tools": [
+      "fbr-due-dates-pakistan"
+    ],
+    "blogs": [
+      "secp-annual-compliance-for-a-private-limited-company-in-pakistan",
+      "how-to-register-a-company-in-pakistan-secp",
+      "internal-audit-vs-external-audit-why-it-matters"
+    ],
+    "services": [
+      {
+        "href": "/company-registration-pakistan/",
+        "label": "Company registration in Pakistan"
+      },
+      {
+        "href": "/audit-services-pakistan/",
+        "label": "Audit services in Pakistan"
+      },
+      {
+        "href": "/accounting-bookkeeping-services-pakistan/",
+        "label": "Accounting and bookkeeping services"
+      }
+    ]
+  }
+}

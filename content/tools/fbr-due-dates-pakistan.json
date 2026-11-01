@@ -1,0 +1,79 @@
+{
+  "desk": "compliance",
+  "updated": "2026-11-01",
+  "profile": false,
+  "disclaimer": "This calendar shows the due dates found in the sources listed under it. Tax and company law deadlines are often extended or changed, and some depend on your own facts. Confirm with FBR, SECP or a qualified adviser before relying on a date. It is not legal or tax advice.",
+  "slug": "fbr-due-dates-pakistan",
+  "component": "fbrdates",
+  "name": "FBR Due Dates Calendar",
+  "h1": "FBR Due Dates Calendar Pakistan",
+  "title": "FBR Due Dates Calendar Pakistan: Income Tax, Sales Tax, Withholding",
+  "description": "See your upcoming FBR due dates for income tax return, federal sales tax, withholding statements and advance tax. Free calendar with Excel and calendar-file download.",
+  "lead": "Choose your taxpayer type and get a dated list of FBR deadlines for the next 6 to 18 months, with FBR extensions shown where they apply.",
+  "intro": [
+    "FBR deadlines come in two kinds: yearly (income tax return, advance tax instalments) and monthly (sales tax and withholding statements). Missing them can mean penalties and default surcharge, so most businesses keep a calendar.",
+    "Pick your taxpayer type and tick what applies to you. The tool lists each date, the day of the week and where the date comes from. You can print it, open it in Excel, or add it to Google, Outlook or Apple Calendar."
+  ],
+  "how": [
+    "Income tax return: 30 September for individuals and AOPs, 31 December for companies with a 30 June year-end (FBR income tax due dates page).",
+    "Federal sales tax: Annexure-C by the 10th, payment by the 15th and e-filed return by the 18th of the month after the tax period (FBR sales tax due dates page).",
+    "Withholding tax statement: 15th of the following month.",
+    "Advance tax (section 147): individuals and AOPs pay on 15 September, 15 December, 15 March and 15 June (FBR advance tax calendar). Guides give companies 25 September, 25 December and 25 March, then 15 June. FBR's own page shows different company dates, so the tool shows the earlier dates and a warning.",
+    "When FBR extends a date, the original and the extended date are both shown. For tax year 2026, individuals and AOPs got 15 October and then 31 October 2026."
+  ],
+  "example": "A salaried person with rental income who pays advance tax sees 15 Dec, 15 Mar, 15 Jun and 15 Sep instalments, and the 30 September return date. A sales tax registered shop adds three dates every month: the 10th, 15th and 18th.",
+  "mistakes": [
+    "Relying on last year's date when FBR has extended or moved it.",
+    "Forgetting that sales tax payment (15th) comes before the e-filed return (18th).",
+    "Using these dates for a company with a year-end other than 30 June. Special tax years have their own dates.",
+    "Assuming provincial sales tax on services follows the federal dates. PRA, SRB, KPRA and BRA have their own.",
+    "Assuming company and individual advance tax dates are the same. They differ, and sources disagree on the company dates, so check before paying."
+  ],
+  "faq": [
+    {
+      "q": "What is the last date for the income tax return?",
+      "a": "FBR's due-dates page lists 30 September for individuals and AOPs and 31 December for companies with a 30 June year-end. FBR has extended the tax year 2026 date for individuals and AOPs to 31 October 2026, so always check the latest notice."
+    },
+    {
+      "q": "When is the monthly sales tax return due?",
+      "a": "FBR's page says Annexure-C on the 10th, payment on the 15th and the e-filed return by the 18th of the month following the tax period."
+    },
+    {
+      "q": "Are provincial sales tax dates included?",
+      "a": "No. PRA, SRB, KPRA and BRA dates were not verified, so they are left out rather than guessed."
+    },
+    {
+      "q": "Why does the tool warn about advance tax dates?",
+      "a": "FBR's advance tax calendar lists the 15th for individuals and AOPs, but other published guides give companies the 25th of September, December and March. FBR's own page shows still different company dates, so we show the earlier dates and ask you to confirm."
+    },
+    {
+      "q": "Does the calendar move dates that fall on a weekend?",
+      "a": "No. It shows the day of the week and flags weekend dates so you can confirm the working-day rule."
+    },
+    {
+      "q": "Is any data sent to BIZEASE?",
+      "a": "No. The calendar runs in your browser."
+    }
+  ],
+  "related": {
+    "tools": [
+      "pakistan-compliance-calendar",
+      "sales-tax-invoice-generator-pakistan"
+    ],
+    "blogs": [
+      "fbr-due-dates-in-pakistan-income-tax-sales-tax-and-withholding",
+      "sales-tax-pakistan-fbr-pra-srb-guide",
+      "withholding-tax-in-pakistan-explained"
+    ],
+    "services": [
+      {
+        "href": "/tax-consultant-pakistan/",
+        "label": "Tax consultant in Pakistan"
+      },
+      {
+        "href": "/accounting-bookkeeping-services-pakistan/",
+        "label": "Accounting and bookkeeping services"
+      }
+    ]
+  }
+}
