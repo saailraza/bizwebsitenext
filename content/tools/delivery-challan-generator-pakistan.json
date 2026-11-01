@@ -1,0 +1,59 @@
+{
+  "slug": "delivery-challan-generator-pakistan",
+  "desk": "documents",
+  "component": "challan",
+  "name": "Delivery Challan Generator",
+  "h1": "Delivery Challan Generator",
+  "title": "Delivery Challan Generator Pakistan (Free, PDF)",
+  "description": "Create a delivery challan listing goods, quantity, vehicle and driver with a receiving signature box. Free, prints to PDF, nothing is uploaded.",
+  "updated": "2026-11-01",
+  "lead": "List the goods you are sending, add the vehicle and driver, and print a challan for the receiver to sign.",
+  "profile": true,
+  "intro": [
+    "A delivery challan travels with the goods. It lists what was sent, in what quantity, by which vehicle, and gives the receiver a place to sign. It has no prices, so it proves delivery without showing rates."
+  ],
+  "how": [
+    "Add each item with quantity, unit and remarks (such as condition).",
+    "Fill in the vehicle number and driver details.",
+    "Print two copies: one stays with you, one with the receiver."
+  ],
+  "example": "20 cartons of item A and 5 drums of item B sent in vehicle LEA-1234. The receiver signs and dates the copy that comes back to you.",
+  "mistakes": [
+    "Mixing prices into the challan.",
+    "Not noting damage or shortage on receipt.",
+    "No signature or date from the receiver."
+  ],
+  "faq": [
+    {
+      "q": "Is a delivery challan a tax invoice?",
+      "a": "No. It records delivery of goods. A registered person still issues a tax invoice for a taxable supply."
+    },
+    {
+      "q": "Why no prices?",
+      "a": "A challan proves the goods moved. Prices belong on the invoice."
+    },
+    {
+      "q": "Can I add notes?",
+      "a": "Yes, use the notes box."
+    }
+  ],
+  "related": {
+    "tools": [
+      "sales-tax-invoice-generator-pakistan",
+      "purchase-order-generator-pakistan",
+      "quotation-generator-pakistan"
+    ],
+    "blogs": [],
+    "services": [
+      {
+        "href": "/accounting-bookkeeping-services-pakistan/",
+        "label": "Accounting and bookkeeping services"
+      },
+      {
+        "href": "/erp-consultancy-pakistan/",
+        "label": "ERP consultancy in Pakistan"
+      }
+    ]
+  },
+  "disclaimer": "This tool only lays out the details you type. It does not file anything with FBR or any authority, and it is not legal or tax advice."
+}

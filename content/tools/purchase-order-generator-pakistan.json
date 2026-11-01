@@ -1,0 +1,60 @@
+{
+  "slug": "purchase-order-generator-pakistan",
+  "desk": "documents",
+  "component": "po",
+  "name": "Purchase Order Generator",
+  "h1": "Purchase Order Generator",
+  "title": "Purchase Order Generator Pakistan (Free, PDF)",
+  "description": "Create a purchase order with vendor details, items, delivery date, payment terms and approval boxes. Free, prints to PDF, nothing is uploaded.",
+  "updated": "2026-11-01",
+  "lead": "Tell your vendor exactly what you want to buy, at what price and by when.",
+  "profile": true,
+  "intro": [
+    "A purchase order (PO) is your written order to a vendor. It fixes items, quantities, prices, delivery date and payment terms before anything is supplied, which keeps buying under control."
+  ],
+  "how": [
+    "Fill in the vendor and your quotation reference.",
+    "Add items with quantity and rate. Add tax only if it applies.",
+    "Set the delivery date and place, and the payment terms.",
+    "Print it for approval and send the signed copy to the vendor."
+  ],
+  "example": "50 × Rs. 800 = Rs. 40,000 plus 20 × Rs. 1,500 = Rs. 30,000 gives a PO value of Rs. 70,000.",
+  "mistakes": [
+    "No delivery date.",
+    "Ordering without a PO number, so the invoice cannot be matched later.",
+    "Unclear payment terms."
+  ],
+  "faq": [
+    {
+      "q": "Who should sign a PO?",
+      "a": "Whoever your company authorises to commit spending. The tool has a prepared by and authorised by box."
+    },
+    {
+      "q": "Should I match the PO to the invoice?",
+      "a": "Yes. Match PO, delivery challan and vendor invoice before paying."
+    },
+    {
+      "q": "Is it a contract?",
+      "a": "It is a written order. Terms matter, so keep them clear."
+    }
+  ],
+  "related": {
+    "tools": [
+      "delivery-challan-generator-pakistan",
+      "quotation-generator-pakistan",
+      "payment-receipt-voucher-maker-pakistan"
+    ],
+    "blogs": [],
+    "services": [
+      {
+        "href": "/accounting-bookkeeping-services-pakistan/",
+        "label": "Accounting and bookkeeping services"
+      },
+      {
+        "href": "/erp-consultancy-pakistan/",
+        "label": "ERP consultancy in Pakistan"
+      }
+    ]
+  },
+  "disclaimer": "This tool only lays out the details you type. It does not file anything with FBR or any authority, and it is not legal or tax advice."
+}

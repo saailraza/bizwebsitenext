@@ -9,11 +9,12 @@ export default function BusinessProfile({ onChange }) {
   const [msg, setMsg] = useState('');
 
   useEffect(() => {
-    const v = loadProfile();
-    setP(v);
-    onChange && onChange(v);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
+    setP(loadProfile());
   }, []);
+  useEffect(() => {
+    onChange && onChange(p);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [p]);
 
   function set(k, v) {
     setP((o) => ({ ...o, [k]: v }));
@@ -29,12 +30,10 @@ export default function BusinessProfile({ onChange }) {
   function save() {
     const ok = saveProfile(p);
     setMsg(ok ? 'Saved in this browser only.' : 'Could not save. Your browser may be blocking storage.');
-    onChange && onChange(p);
   }
   function wipe() {
     clearProfile();
     setP(EMPTY_PROFILE);
-    onChange && onChange(EMPTY_PROFILE);
     setMsg('Profile removed from this browser.');
   }
 

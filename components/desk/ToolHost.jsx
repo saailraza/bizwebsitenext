@@ -1,12 +1,19 @@
 'use client';
 import dynamic from 'next/dynamic';
 
-// Add one line here for every new tool: key (the "component" field in content/tools/*.json) -> component.
+const loading = () => <p className="dk-load">Loading tool…</p>;
+const DocMaker = dynamic(() => import('./tools/DocMaker'), { ssr: false, loading });
+
+// Document tools share one component; the id picks the document (see lib/docKinds.js).
+const DOC_IDS = ['invoice', 'quote', 'memo', 'challan', 'po', 'receipt', 'voucher'];
+
+// Add one line here for every other tool: key (the "component" field in content/tools/*.json) -> component.
 const TOOLS = {
-  marla: dynamic(() => import('./tools/MarlaConverter'), { ssr: false, loading: () => <p className="dk-load">Loading tool…</p> }),
+  marla: dynamic(() => import('./tools/MarlaConverter'), { ssr: false, loading }),
 };
 
 export default function ToolHost({ id, rates }) {
+  if (DOC_IDS.includes(id)) return <DocMaker kind={id} rates={rates} />;
   const C = TOOLS[id];
   if (!C) return <p className="dk-load">This tool is not available yet.</p>;
   return <C rates={rates} />;

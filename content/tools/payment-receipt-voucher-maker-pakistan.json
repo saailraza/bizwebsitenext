@@ -1,0 +1,55 @@
+{
+  "slug": "payment-receipt-voucher-maker-pakistan",
+  "desk": "documents",
+  "component": "voucher",
+  "name": "Payment and Receipt Voucher Maker",
+  "h1": "Payment and Receipt Voucher Maker",
+  "title": "Payment and Receipt Voucher Maker Pakistan (Free, PDF)",
+  "description": "Make a payment voucher or receipt voucher with account head, amount in words, mode and approval boxes. Free, prints to PDF, nothing is uploaded.",
+  "updated": "2026-11-01",
+  "lead": "Choose payment or receipt, add the account head and amount, and print a voucher with signature boxes.",
+  "profile": true,
+  "intro": [
+    "A voucher is the internal document behind an entry in your books. A payment voucher supports money going out. A receipt voucher supports money coming in. Both carry the account head, amount, mode and the people who prepared, checked and approved it."
+  ],
+  "how": [
+    "Pick Payment or Receipt.",
+    "Enter the party, account head, amount, mode and narration (what it is for).",
+    "Print and collect signatures. Attach the bill or receipt behind it."
+  ],
+  "example": "Payment voucher PV-0007: Rs. 15,000 paid by cheque to a supplier for office supplies, account head \"Office expenses\".",
+  "mistakes": [
+    "No narration, so nobody remembers what it was for later.",
+    "No approval signature.",
+    "Not attaching the supporting bill."
+  ],
+  "faq": [
+    {
+      "q": "What is an account head?",
+      "a": "The ledger account the amount is booked to, such as Rent, Salaries or Sales."
+    },
+    {
+      "q": "Do I need vouchers if I use accounting software?",
+      "a": "Many businesses still keep them as supporting documents for audit."
+    },
+    {
+      "q": "Can I number them myself?",
+      "a": "Yes. Keep one running series for each voucher type."
+    }
+  ],
+  "related": {
+    "tools": [
+      "payment-receipt-generator-pakistan",
+      "cash-memo-maker-pakistan",
+      "purchase-order-generator-pakistan"
+    ],
+    "blogs": [],
+    "services": [
+      {
+        "href": "/accounting-bookkeeping-services-pakistan/",
+        "label": "Accounting and bookkeeping services"
+      }
+    ]
+  },
+  "disclaimer": "This tool only lays out the details you type. It does not file anything with FBR or any authority, and it is not legal or tax advice."
+}

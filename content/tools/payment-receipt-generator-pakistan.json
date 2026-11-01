@@ -1,0 +1,55 @@
+{
+  "slug": "payment-receipt-generator-pakistan",
+  "desk": "documents",
+  "component": "receipt",
+  "name": "Payment Receipt Generator",
+  "h1": "Payment Receipt Generator",
+  "title": "Payment Receipt Generator Pakistan (Free, PDF)",
+  "description": "Make a payment receipt with amount in figures and words, payment mode, invoice reference and balance due. Free, prints to PDF, nothing is uploaded.",
+  "updated": "2026-11-01",
+  "lead": "Record who paid, how much, how and for what, and print a receipt with the remaining balance.",
+  "profile": true,
+  "intro": [
+    "A receipt is proof that money was received. It protects both sides. This tool writes the amount in figures and words and can show what is still due."
+  ],
+  "how": [
+    "Enter who paid, the amount, the mode (cash, bank, cheque, online) and what it was for.",
+    "Add the invoice number it is against.",
+    "Enter the total due to show the balance after this payment."
+  ],
+  "example": "Total due Rs. 85,000. Received Rs. 50,000. Balance after this payment: Rs. 35,000.",
+  "mistakes": [
+    "Not writing the invoice number it clears.",
+    "Writing the amount in figures only.",
+    "Not noting the cheque or transaction number."
+  ],
+  "faq": [
+    {
+      "q": "Is this receipt a tax document?",
+      "a": "No. It records a payment. It is not a sales tax invoice."
+    },
+    {
+      "q": "Can I show a part payment?",
+      "a": "Yes. Enter the total due and the amount received, and the balance is shown."
+    },
+    {
+      "q": "Does it keep a record?",
+      "a": "No. Print or download it. Keep your own copy."
+    }
+  ],
+  "related": {
+    "tools": [
+      "payment-receipt-voucher-maker-pakistan",
+      "sales-tax-invoice-generator-pakistan",
+      "cash-memo-maker-pakistan"
+    ],
+    "blogs": [],
+    "services": [
+      {
+        "href": "/accounting-bookkeeping-services-pakistan/",
+        "label": "Accounting and bookkeeping services"
+      }
+    ]
+  },
+  "disclaimer": "This tool only lays out the details you type. It does not file anything with FBR or any authority, and it is not legal or tax advice."
+}

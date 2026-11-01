@@ -1,0 +1,64 @@
+{
+  "slug": "quotation-generator-pakistan",
+  "desk": "documents",
+  "component": "quote",
+  "name": "Quotation Generator",
+  "h1": "Quotation Generator",
+  "title": "Quotation Generator Pakistan (Free, PDF)",
+  "description": "Create a professional quotation with items, discount, optional sales tax, validity date and terms. Free, prints to PDF, nothing is uploaded.",
+  "updated": "2026-11-01",
+  "lead": "List what you offer, set a validity date and terms, and print a clear quotation for your customer.",
+  "profile": true,
+  "intro": [
+    "A quotation tells a customer what you will supply and at what price before they commit. A clear one avoids disputes about price, delivery and validity.",
+    "Fill in the customer and items. Totals, discount and optional tax are worked out for you, and the amount is written in words."
+  ],
+  "how": [
+    "Add each item with quantity and rate. The amount is quantity times rate.",
+    "Set \"Valid until\" so the price does not stay open forever.",
+    "Put delivery, payment and warranty terms in the terms box.",
+    "Leave tax at 0 if your quote is exclusive of tax, or enter the rate to show it."
+  ],
+  "example": "Item A: 10 × Rs. 2,500 = Rs. 25,000. Item B: 4 × Rs. 4,000 = Rs. 16,000. Subtotal Rs. 41,000. With 0% tax the total is Rs. 41,000.",
+  "mistakes": [
+    "No validity date.",
+    "Not saying whether prices include or exclude tax.",
+    "Leaving out delivery time and payment terms.",
+    "Reusing an old quotation number."
+  ],
+  "faq": [
+    {
+      "q": "Is a quotation a legal contract?",
+      "a": "It is an offer. What binds each side depends on your terms and what the customer accepts. Ask a lawyer for important deals."
+    },
+    {
+      "q": "Should a quotation show sales tax?",
+      "a": "Many businesses quote exclusive of tax and say so. Others show tax as a line. This tool lets you do either."
+    },
+    {
+      "q": "Can I add my logo and signature?",
+      "a": "Yes, in \"My business profile\". They stay in your browser."
+    }
+  ],
+  "related": {
+    "tools": [
+      "sales-tax-invoice-generator-pakistan",
+      "purchase-order-generator-pakistan",
+      "delivery-challan-generator-pakistan"
+    ],
+    "blogs": [
+      "sales-tax-pakistan-fbr-pra-srb-guide"
+    ],
+    "services": [
+      {
+        "href": "/accounting-bookkeeping-services-pakistan/",
+        "label": "Accounting and bookkeeping services"
+      },
+      {
+        "href": "/tax-consultant-pakistan/",
+        "label": "Tax consultant in Pakistan"
+      }
+    ]
+  },
+  "disclaimer": "This tool only lays out the details you type. It does not file anything with FBR or any authority, and it is not legal or tax advice."
+}

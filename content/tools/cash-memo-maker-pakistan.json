@@ -1,0 +1,59 @@
+{
+  "slug": "cash-memo-maker-pakistan",
+  "desk": "documents",
+  "component": "memo",
+  "name": "Cash Memo Maker",
+  "h1": "Cash Memo Maker",
+  "title": "Cash Memo Maker Pakistan (Free, PDF)",
+  "description": "Make a simple cash memo or retail receipt with items, discount and total in words. Free, prints to PDF, nothing is uploaded.",
+  "updated": "2026-11-01",
+  "lead": "A quick cash memo for a shop or small business: add the items and print.",
+  "profile": true,
+  "intro": [
+    "A cash memo is a simple bill for a sale paid on the spot. It shows what was sold, the price and the total.",
+    "If your business is registered for sales tax and the sale is taxable, use the Sales Tax Invoice tool instead, because that shows the particulars the law lists for a tax invoice."
+  ],
+  "how": [
+    "Add each item with quantity and rate.",
+    "Add a discount if you gave one.",
+    "Add a tax rate only if you charge tax on the memo.",
+    "Print the memo or save it as a PDF."
+  ],
+  "example": "3 × Rs. 450 + 1 × Rs. 1,200 = Rs. 2,550. A Rs. 50 discount makes the total Rs. 2,500.",
+  "mistakes": [
+    "Reusing the same memo number.",
+    "Giving a cash memo where a tax invoice is needed.",
+    "Not writing the date."
+  ],
+  "faq": [
+    {
+      "q": "Is a cash memo a tax invoice?",
+      "a": "Not by itself. A tax invoice has particulars set by the Sales Tax Act. Use the Sales Tax Invoice tool for taxable supplies by a registered person."
+    },
+    {
+      "q": "Do I need the customer name?",
+      "a": "Not for a small retail sale. It is optional here."
+    },
+    {
+      "q": "Can I download it as Excel?",
+      "a": "Yes. Use \"Download Excel (CSV)\"."
+    }
+  ],
+  "related": {
+    "tools": [
+      "sales-tax-invoice-generator-pakistan",
+      "payment-receipt-generator-pakistan",
+      "payment-receipt-voucher-maker-pakistan"
+    ],
+    "blogs": [
+      "sales-tax-pakistan-fbr-pra-srb-guide"
+    ],
+    "services": [
+      {
+        "href": "/accounting-bookkeeping-services-pakistan/",
+        "label": "Accounting and bookkeeping services"
+      }
+    ]
+  },
+  "disclaimer": "This tool only lays out the details you type. It does not file anything with FBR or any authority, and it is not legal or tax advice."
+}

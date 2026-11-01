@@ -1,0 +1,75 @@
+{
+  "slug": "sales-tax-invoice-generator-pakistan",
+  "desk": "documents",
+  "component": "invoice",
+  "name": "Sales Tax Invoice Generator",
+  "h1": "Sales Tax Invoice Generator",
+  "title": "Sales Tax Invoice Generator Pakistan (Free, PDF)",
+  "description": "Make a serially numbered sales tax invoice with supplier and buyer details, tax and totals in rupees and words. Free, prints to PDF, nothing is uploaded.",
+  "updated": "2026-11-01",
+  "lead": "Fill in the buyer and items, and get a clean sales tax invoice that shows value excluding tax, sales tax and value including tax.",
+  "profile": true,
+  "intro": [
+    "Section 23 of the Sales Tax Act, 1990 says a registered person making a taxable supply must issue a serially numbered tax invoice. This generator arranges those details on one A4 page so you can print it or save it as a PDF.",
+    "Enter your business details once under \"My business profile\". They are kept only in your browser, so they are ready next time. The tool adds up the lines, applies the tax rate you choose, and writes the total in words."
+  ],
+  "how": [
+    "Section 23(1) lists these particulars: name, address and registration number of the supplier and of the recipient, date of issue, description and quantity of goods, value excluding tax, amount of sales tax, and value including tax.",
+    "The checklist under the form shows which of these are still blank.",
+    "FBR has said invoices for taxable supplies to unregistered buyers should carry the buyer's NTN or CNIC (not required when payment is by card or other digital mode). Use the buyer ID field for this.",
+    "Invoices may be issued in English or Urdu. This tool prints in English.",
+    "The default rate is the standard 18% federal rate. Change it if your supply is taxed at another rate, such as a provincial services rate."
+  ],
+  "example": "Two items: 3 × Rs. 1,250.50 and 2.5 × Rs. 99.99. Value excluding tax is Rs. 4,001.48. With a Rs. 100 discount the taxable value is Rs. 3,901.48, tax at 18% is Rs. 702.27 and the total is Rs. 4,603.75.",
+  "mistakes": [
+    "Leaving out the buyer's name, address or registration number.",
+    "Using one running number twice. Each invoice needs its own serial number.",
+    "Applying the discount after tax. Here the discount comes off first and tax is worked on the reduced value.",
+    "Issuing more than one tax invoice for the same supply.",
+    "Using a general rate for a supply that has a special rate or exemption. Check the rate for your goods or service."
+  ],
+  "faq": [
+    {
+      "q": "Is this invoice approved by FBR?",
+      "a": "No. It is a layout for your own records. It does not connect to FBR and has no FBR invoice number or QR code. Some sectors must issue invoices through FBR-integrated systems. If that applies to you, use that system."
+    },
+    {
+      "q": "Who can issue a sales tax invoice?",
+      "a": "A person registered for sales tax (or paying retail tax). An unregistered person should not issue a tax invoice."
+    },
+    {
+      "q": "Does it save my data?",
+      "a": "No. Everything runs in your browser. Only your business profile can be saved, and only in your own browser."
+    },
+    {
+      "q": "Can I use a different tax rate?",
+      "a": "Yes. Type any rate. Provincial sales tax on services uses different rates, so check yours."
+    },
+    {
+      "q": "How do I get a PDF?",
+      "a": "Press the print button and choose \"Save as PDF\" as the printer."
+    }
+  ],
+  "related": {
+    "tools": [
+      "quotation-generator-pakistan",
+      "cash-memo-maker-pakistan",
+      "payment-receipt-generator-pakistan"
+    ],
+    "blogs": [
+      "sales-tax-pakistan-fbr-pra-srb-guide",
+      "ntn-registration-and-active-taxpayer-list-pakistan"
+    ],
+    "services": [
+      {
+        "href": "/tax-consultant-pakistan/",
+        "label": "Tax consultant in Pakistan"
+      },
+      {
+        "href": "/accounting-bookkeeping-services-pakistan/",
+        "label": "Accounting and bookkeeping services"
+      }
+    ]
+  },
+  "disclaimer": "This tool only lays out the details you type. It is not an FBR-approved invoicing system, it does not file anything, and it is not legal or tax advice. Rates and rules change, so check them with FBR or a qualified adviser."
+}

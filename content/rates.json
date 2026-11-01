@@ -9,5 +9,11 @@
     "sqftPerSqMeter": 10.7639104167,
     "source": "https://en.wikipedia.org/wiki/Marla_(unit)",
     "checked": "2026-11-01"
+  },
+  "salesTax": {
+    "federal": 18,
+    "note": "Standard federal sales tax rate on registered supplies of goods. Provincial services rates differ and may change each year; the tools let the user type any rate.",
+    "source": "https://www.vatupdate.com/2025/08/25/fbr-announces-revised-sales-tax-rates-and-provisions-for-2025-26-fiscal-year",
+    "checked": "2026-11-01"
   }
 }
