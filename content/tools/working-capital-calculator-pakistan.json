@@ -1,0 +1,66 @@
+{
+  "slug": "working-capital-calculator-pakistan",
+  "desk": "cfo",
+  "component": "wcap",
+  "name": "Working Capital Calculator",
+  "h1": "Working Capital Calculator",
+  "title": "Working Capital Calculator Pakistan (Free, with Ratios)",
+  "description": "Work out working capital, current ratio, quick ratio, cash ratio and the cash conversion cycle from your balance sheet figures. Free, nothing is uploaded.",
+  "updated": "2026-11-02",
+  "lead": "Enter your current assets, current liabilities and yearly sales to see if your business can pay its short-term bills and how long your cash is tied up.",
+  "profile": false,
+  "intro": [
+    "Working capital is the money you have available to run the business day to day: what you can turn into cash within a year, minus what you must pay within a year. A business can be profitable and still run short of cash if too much is tied up in stock and unpaid invoices.",
+    "The tool gives working capital, three liquidity ratios, and the cash conversion cycle, which shows how many days pass between paying for stock and getting paid by customers. Everything is calculated in your browser. Nothing you type is sent to BIZEASE."
+  ],
+  "how": [
+    "Working capital = current assets - current liabilities.",
+    "Current ratio = current assets ÷ current liabilities. Quick ratio removes inventory from the assets. Cash ratio uses only cash and bank.",
+    "Days sales outstanding = receivables ÷ sales × 365. Days inventory outstanding = inventory ÷ cost of goods sold × 365. Days payables outstanding = payables ÷ cost of goods sold × 365.",
+    "Cash conversion cycle = days sales outstanding + days inventory outstanding - days payables outstanding."
+  ],
+  "example": "Cash Rs. 100,000, receivables Rs. 300,000, inventory Rs. 200,000, payables Rs. 250,000 and short-term loans Rs. 150,000. Current assets are Rs. 600,000 and current liabilities Rs. 400,000, so working capital is Rs. 200,000, the current ratio is 1.50 and the quick ratio is 1.00. With yearly sales of Rs. 3,650,000 and cost of goods sold of Rs. 2,190,000 the cash conversion cycle is about 22 days.",
+  "mistakes": [
+    "Leaving the current part of long-term loans out of current liabilities.",
+    "Counting old receivables you will never collect as current assets.",
+    "Using a month of sales with annual receivables, so the days come out wrong. Use figures for the same 12 months.",
+    "Judging one ratio on its own. Compare with your own past figures and your industry."
+  ],
+  "faq": [
+    {
+      "q": "What is a good current ratio?",
+      "a": "There is no single number. A ratio below 1 means current liabilities exceed current assets. What is healthy depends on the industry, so compare with your own history and similar businesses."
+    },
+    {
+      "q": "What is the cash conversion cycle?",
+      "a": "It is the number of days your cash is tied up between paying suppliers and collecting from customers. A shorter cycle means less cash is stuck."
+    },
+    {
+      "q": "Which period should the sales and cost figures cover?",
+      "a": "The last 12 months, so the \"× 365\" in the day calculations matches."
+    },
+    {
+      "q": "Does it save my numbers?",
+      "a": "No. Print or download your result."
+    }
+  ],
+  "related": {
+    "tools": [
+      "cash-flow-forecast-pakistan",
+      "budget-planner-pakistan",
+      "budget-vs-actual-variance-analysis-pakistan"
+    ],
+    "blogs": [],
+    "services": [
+      {
+        "href": "/accounting-bookkeeping-services-pakistan/",
+        "label": "Accounting and bookkeeping services"
+      },
+      {
+        "href": "/business-consultants-islamabad/",
+        "label": "Business consultants in Islamabad"
+      }
+    ]
+  },
+  "disclaimer": "This tool does arithmetic on the figures you enter. It is not financial, tax or investment advice, and results are only as good as the numbers you put in. Talk to a qualified adviser before big decisions."
+}

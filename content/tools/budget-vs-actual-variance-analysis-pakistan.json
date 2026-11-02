@@ -1,0 +1,66 @@
+{
+  "slug": "budget-vs-actual-variance-analysis-pakistan",
+  "desk": "cfo",
+  "component": "variance",
+  "name": "Budget vs Actual Variance Analysis",
+  "h1": "Budget vs Actual Variance Analysis",
+  "title": "Budget vs Actual Variance Analysis Calculator (Free)",
+  "description": "Compare your budget with actual results line by line, see favourable and adverse variances, percentages and profit impact. Free, nothing is uploaded.",
+  "updated": "2026-11-02",
+  "lead": "Enter budget and actual figures for each line and see which lines are favourable, which are adverse, and which need a closer look.",
+  "profile": false,
+  "intro": [
+    "Variance analysis compares what you planned with what happened. The gap tells you where to look: a sale that beat the budget, or a cost that ran over.",
+    "Each line is marked favourable (better for profit than planned) or adverse (worse for profit). Lines whose gap is bigger than your chosen percentage are flagged so you can ask why. Everything is calculated in your browser. Nothing you type is sent to BIZEASE."
+  ],
+  "how": [
+    "Variance = actual - budget. Variance % = variance ÷ budget.",
+    "For income, actual above budget is favourable. For expenses, actual below budget is favourable.",
+    "Profit variance = actual profit - budgeted profit.",
+    "Set the flag level. Lines with a gap bigger than this percentage are marked \"check\". A line with no budget but some actual is flagged too."
+  ],
+  "example": "Sales: budget Rs. 100,000 and actual Rs. 120,000 is +Rs. 20,000 (+20%), favourable. Rent: budget Rs. 50,000 and actual Rs. 60,000 is +Rs. 10,000 (+20%), adverse. Together, budgeted profit of Rs. 50,000 becomes actual profit of Rs. 60,000, a favourable profit variance of Rs. 10,000.",
+  "mistakes": [
+    "Reading every variance as bad. Higher costs may come from higher sales.",
+    "Comparing a full-year budget with part-year actuals. Use the same period.",
+    "Ignoring small gaps that repeat every month.",
+    "Not asking why. A flag is a prompt for a question, not an answer."
+  ],
+  "faq": [
+    {
+      "q": "What is a favourable variance?",
+      "a": "One that improves profit against budget: more income than planned or less spending than planned."
+    },
+    {
+      "q": "What flag level should I use?",
+      "a": "Many businesses start with 10%. Use a lower level for big lines and a higher one for small lines."
+    },
+    {
+      "q": "Can I use my budget from the Budget Planner?",
+      "a": "Yes. Press \"Load my budget\". Choose whether to load the full year or one month (annual ÷ 12)."
+    },
+    {
+      "q": "Does it keep my figures?",
+      "a": "No. Print or download the result."
+    }
+  ],
+  "related": {
+    "tools": [
+      "budget-planner-pakistan",
+      "cash-flow-forecast-pakistan",
+      "working-capital-calculator-pakistan"
+    ],
+    "blogs": [],
+    "services": [
+      {
+        "href": "/accounting-bookkeeping-services-pakistan/",
+        "label": "Accounting and bookkeeping services"
+      },
+      {
+        "href": "/audit-services-pakistan/",
+        "label": "Audit services in Pakistan"
+      }
+    ]
+  },
+  "disclaimer": "This tool does arithmetic on the figures you enter. It is not financial, tax or investment advice, and results are only as good as the numbers you put in. Talk to a qualified adviser before big decisions."
+}

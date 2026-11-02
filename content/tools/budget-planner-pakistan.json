@@ -1,0 +1,62 @@
+{
+  "slug": "budget-planner-pakistan",
+  "desk": "cfo",
+  "component": "budget",
+  "name": "Budget Planner",
+  "h1": "Budget Planner",
+  "title": "Business Budget Planner Pakistan (Free, Annual Budget)",
+  "description": "Plan your annual business budget: list income and expenses, see budgeted profit, margin and the monthly average. Free, saves only in your browser.",
+  "updated": "2026-11-02",
+  "lead": "List what you expect to earn and spend this year and see your budgeted profit and the monthly average for every line.",
+  "profile": false,
+  "intro": [
+    "A budget is your plan for the year in numbers. It tells you how much you can spend, what profit to aim for, and gives you something to compare against later.",
+    "Enter yearly amounts for each income and expense line. You can save the budget in your browser and load it into the Budget vs Actual tool to track how you are doing. Everything is calculated in your browser. Nothing you type is sent to BIZEASE."
+  ],
+  "how": [
+    "Enter a budget for the year against each income line and each expense line. Add your own lines if you need them.",
+    "Budgeted profit = total income - total expenses. Profit margin = profit ÷ income.",
+    "The monthly column is the year divided by 12. It is an average, not a seasonal plan.",
+    "Press \"Save budget in this browser\" to carry it to the Budget vs Actual tool."
+  ],
+  "example": "Income Rs. 12,000,000 and expenses Rs. 10,000,000 give a budgeted profit of Rs. 2,000,000, a margin of 16.7%, and a monthly average profit of Rs. 166,667.",
+  "mistakes": [
+    "Budgeting income too high and costs too low.",
+    "Leaving out taxes, loan repayments and owner drawings.",
+    "Never reviewing the budget after the first month.",
+    "Treating the monthly average as a seasonal plan when sales vary by season."
+  ],
+  "faq": [
+    {
+      "q": "Should I budget by month?",
+      "a": "Many businesses do. This tool gives the yearly figure and the monthly average. Use the Cash Flow Forecast for a month-by-month view."
+    },
+    {
+      "q": "Where is my budget saved?",
+      "a": "Only in this browser on this device. It is not uploaded. Clearing your browser data removes it."
+    },
+    {
+      "q": "How do I compare against actual results?",
+      "a": "Open the Budget vs Actual tool and press \"Load my budget\"."
+    }
+  ],
+  "related": {
+    "tools": [
+      "budget-vs-actual-variance-analysis-pakistan",
+      "cash-flow-forecast-pakistan",
+      "working-capital-calculator-pakistan"
+    ],
+    "blogs": [],
+    "services": [
+      {
+        "href": "/accounting-bookkeeping-services-pakistan/",
+        "label": "Accounting and bookkeeping services"
+      },
+      {
+        "href": "/business-consultants-islamabad/",
+        "label": "Business consultants in Islamabad"
+      }
+    ]
+  },
+  "disclaimer": "This tool does arithmetic on the figures you enter. It is not financial, tax or investment advice, and results are only as good as the numbers you put in. Talk to a qualified adviser before big decisions."
+}

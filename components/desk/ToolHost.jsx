@@ -11,6 +11,10 @@ const DOC_IDS = ['invoice', 'quote', 'memo', 'challan', 'po', 'receipt', 'vouche
 const TOOLS = {
   fbrdates: dynamic(() => import('./tools/FbrDates'), { ssr: false, loading }),
   calendar: dynamic(() => import('./tools/CompanyCalendar'), { ssr: false, loading }),
+  wcap: dynamic(() => import('./tools/WorkingCapital'), { ssr: false, loading }),
+  cashflow: dynamic(() => import('./tools/CashFlow'), { ssr: false, loading }),
+  budget: dynamic(() => import('./tools/BudgetPlanner'), { ssr: false, loading }),
+  variance: dynamic(() => import('./tools/Variance'), { ssr: false, loading }),
   marla: dynamic(() => import('./tools/MarlaConverter'), { ssr: false, loading }),
 };
 

@@ -1,0 +1,66 @@
+{
+  "slug": "cash-flow-forecast-pakistan",
+  "desk": "cfo",
+  "component": "cashflow",
+  "name": "Cash Flow Forecast",
+  "h1": "Cash Flow Forecast",
+  "title": "Cash Flow Forecast Calculator Pakistan (Free, 12 Months)",
+  "description": "Forecast your cash month by month: add what comes in and goes out, plus one-off items, and see when cash could run short. Free, nothing is uploaded.",
+  "updated": "2026-11-02",
+  "lead": "Start with the cash you have today, add monthly cash in and cash out, and see your closing cash each month for 6 or 12 months.",
+  "profile": false,
+  "intro": [
+    "A cash flow forecast shows your expected bank balance month by month. It warns you about a shortfall before it happens, so you can arrange a loan, speed up collections or delay a payment.",
+    "Profit is not cash. A sale you have not yet been paid for is profit but not cash, and a machine you buy is cash out but not an expense in the month. The forecast follows the cash. Everything is calculated in your browser. Nothing you type is sent to BIZEASE."
+  ],
+  "how": [
+    "Enter your cash and bank balance today and the first month.",
+    "List monthly cash in (for example sales collected) and cash out (salaries, rent, suppliers, taxes, loan repayments). Enter month 1 and how much each line changes per month, in percent.",
+    "Add one-off items such as a machine purchase or a loan received, and the month they happen.",
+    "Each month: closing cash = opening cash + cash in - cash out. The next month starts with the closing cash."
+  ],
+  "example": "Opening cash Rs. 100,000. Cash in Rs. 500,000 a month. Cash out Rs. 450,000 in month 1, rising 1% a month. A Rs. 200,000 machine is bought in month 3. Closing cash is Rs. 150,000 after month 1, Rs. 195,500 after month 2, and falls to Rs. 36,455 in month 3.",
+  "mistakes": [
+    "Entering sales when invoiced instead of when collected.",
+    "Forgetting taxes, loan repayments and annual payments.",
+    "Being too optimistic about collections. Test a slower case.",
+    "Never updating the forecast. Update it every month with actuals."
+  ],
+  "faq": [
+    {
+      "q": "How is this different from a profit forecast?",
+      "a": "A profit forecast follows sales and costs when they are earned. A cash forecast follows when money actually moves."
+    },
+    {
+      "q": "What does \"change per month\" mean?",
+      "a": "The percentage a line grows or falls each month. Leave it at 0 for a steady amount. Use a negative number for a falling line."
+    },
+    {
+      "q": "How far ahead should I forecast?",
+      "a": "Many small businesses use 12 months and update monthly. Use 6 months if you cannot see further ahead."
+    },
+    {
+      "q": "Can I download it?",
+      "a": "Yes, as Excel (CSV) or print it to PDF."
+    }
+  ],
+  "related": {
+    "tools": [
+      "working-capital-calculator-pakistan",
+      "budget-planner-pakistan",
+      "budget-vs-actual-variance-analysis-pakistan"
+    ],
+    "blogs": [],
+    "services": [
+      {
+        "href": "/accounting-bookkeeping-services-pakistan/",
+        "label": "Accounting and bookkeeping services"
+      },
+      {
+        "href": "/business-consultants-islamabad/",
+        "label": "Business consultants in Islamabad"
+      }
+    ]
+  },
+  "disclaimer": "This tool does arithmetic on the figures you enter. It is not financial, tax or investment advice, and results are only as good as the numbers you put in. Talk to a qualified adviser before big decisions."
+}
