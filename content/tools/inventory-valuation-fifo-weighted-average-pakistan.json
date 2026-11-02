@@ -1,0 +1,65 @@
+{
+  "slug": "inventory-valuation-fifo-weighted-average-pakistan",
+  "desk": "cfo",
+  "component": "inventory",
+  "name": "Inventory Valuation: FIFO and Weighted Average",
+  "h1": "Inventory Valuation: FIFO and Weighted Average",
+  "title": "Inventory Valuation Calculator: FIFO vs Weighted Average (Free)",
+  "description": "Compare FIFO and weighted average cost of goods sold, closing inventory and gross profit from your opening stock, purchases and sales. Free.",
+  "updated": "2026-11-02",
+  "lead": "Enter opening stock, purchases and units sold to see cost of goods sold and closing stock under both methods.",
+  "profile": false,
+  "intro": [
+    "Inventory is valued at cost. When you buy the same item at different prices, the method you use to decide which cost leaves with each sale changes your profit and your closing stock.",
+    "This tool shows FIFO (first in, first out) and weighted average side by side. IAS 2 does not allow LIFO, so it is not shown. Calculations run in your browser."
+  ],
+  "how": [
+    "FIFO: the oldest costs go to cost of goods sold first. Closing stock holds the newest costs.",
+    "Weighted average: total cost of stock available / units available, applied to units sold and units left.",
+    "Gross profit = sales revenue - cost of goods sold (if you enter revenue)."
+  ],
+  "example": "Opening 100 units at Rs. 10, then a purchase of 100 units at Rs. 14. Sell 120 units. FIFO cost of goods sold is 100 x 10 + 20 x 14 = Rs. 1,280. Weighted average cost is Rs. 12 a unit, so cost of goods sold is Rs. 1,440.",
+  "mistakes": [
+    "Switching methods from year to year.",
+    "Entering purchases out of order for FIFO.",
+    "Selling more units than you had.",
+    "Forgetting freight and duties that belong in the cost."
+  ],
+  "faq": [
+    {
+      "q": "Why no LIFO?",
+      "a": "IAS 2 does not permit it."
+    },
+    {
+      "q": "Which method should I choose?",
+      "a": "Use one consistently and follow your accounting framework and your adviser."
+    },
+    {
+      "q": "Does it handle returns or write-downs?",
+      "a": "No. Adjust your figures first."
+    },
+    {
+      "q": "Is data saved?",
+      "a": "No."
+    }
+  ],
+  "related": {
+    "tools": [
+      "working-capital-calculator-pakistan",
+      "budget-planner-pakistan",
+      "cash-flow-forecast-pakistan"
+    ],
+    "blogs": [],
+    "services": [
+      {
+        "href": "/accounting-bookkeeping-services-pakistan/",
+        "label": "Accounting and bookkeeping services"
+      },
+      {
+        "href": "/audit-services-pakistan/",
+        "label": "Audit services in Pakistan"
+      }
+    ]
+  },
+  "disclaimer": "This tool does arithmetic on the figures you enter. It is not financial, tax or investment advice, and results are only as good as the numbers you put in. Talk to a qualified adviser before big decisions."
+}

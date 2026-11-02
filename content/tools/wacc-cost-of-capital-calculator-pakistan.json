@@ -1,0 +1,62 @@
+{
+  "slug": "wacc-cost-of-capital-calculator-pakistan",
+  "desk": "cfo",
+  "component": "wacc",
+  "name": "Cost of Capital (WACC) Calculator",
+  "h1": "Cost of Capital (WACC) Calculator",
+  "title": "WACC Calculator: Weighted Average Cost of Capital (Free)",
+  "description": "Calculate WACC from equity, debt, cost of equity (direct or CAPM) and the after-tax cost of debt. Free, nothing is uploaded.",
+  "updated": "2026-11-02",
+  "lead": "See the blended rate your business pays to fund itself from owners and lenders.",
+  "profile": false,
+  "intro": [
+    "WACC is the average return that owners and lenders together expect, weighted by how much each provides. It is often used as the discount rate when valuing projects.",
+    "You enter the values and rates. The tool does not supply market data such as risk-free rates, beta or risk premiums, because they change and depend on your market. Calculations stay in your browser."
+  ],
+  "how": [
+    "Weights = equity / (equity + debt) and debt / (equity + debt).",
+    "CAPM cost of equity = risk-free rate + beta x market risk premium.",
+    "Cost of debt after tax = interest rate x (1 - tax rate).",
+    "WACC = equity weight x cost of equity + debt weight x cost of debt after tax."
+  ],
+  "example": "Equity Rs. 6,000,000 at 16% and debt Rs. 4,000,000 at 12% with 30% tax. After-tax debt cost is 8.4%. WACC = 0.6 x 16 + 0.4 x 8.4 = 12.96%.",
+  "mistakes": [
+    "Using book values when market values are available.",
+    "Using a pre-tax cost of debt.",
+    "Mixing percent and decimals.",
+    "Using one WACC for projects of very different risk."
+  ],
+  "faq": [
+    {
+      "q": "What rates should I use?",
+      "a": "Your own lender rates and a return your owners expect. For CAPM, use sources you trust and note the date."
+    },
+    {
+      "q": "Is a lower WACC always better?",
+      "a": "Lower funding cost helps, but do not chase it by taking on risky debt."
+    },
+    {
+      "q": "Is data saved?",
+      "a": "No."
+    }
+  ],
+  "related": {
+    "tools": [
+      "business-valuation-estimator-pakistan",
+      "dscr-debt-service-coverage-calculator-pakistan",
+      "business-health-check-pakistan"
+    ],
+    "blogs": [],
+    "services": [
+      {
+        "href": "/accounting-bookkeeping-services-pakistan/",
+        "label": "Accounting and bookkeeping services"
+      },
+      {
+        "href": "/audit-services-pakistan/",
+        "label": "Audit services in Pakistan"
+      }
+    ]
+  },
+  "disclaimer": "This tool does arithmetic on the figures you enter. It is not financial, tax or investment advice, and results are only as good as the numbers you put in. Talk to a qualified adviser before big decisions."
+}

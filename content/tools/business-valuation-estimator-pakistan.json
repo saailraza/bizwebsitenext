@@ -1,0 +1,66 @@
+{
+  "slug": "business-valuation-estimator-pakistan",
+  "desk": "cfo",
+  "component": "valuation",
+  "name": "Business Valuation Estimator",
+  "h1": "Business Valuation Estimator",
+  "title": "Business Valuation Estimator: Multiples, Assets and DCF (Free)",
+  "description": "Estimate a rough value for your business using an earnings multiple, a revenue multiple, net assets and discounted cash flow. Free, runs in your browser.",
+  "updated": "2026-11-02",
+  "lead": "Try up to four valuation methods side by side and see the range they give.",
+  "profile": false,
+  "intro": [
+    "There is no single correct value for a business. Different methods give different answers, so this tool shows each method you fill in and the range between the lowest and highest.",
+    "It has no preset multiples, because the right multiple depends on the industry, size, risk and the deal. Enter figures you can support, for example from comparable sales. Nothing is uploaded."
+  ],
+  "how": [
+    "Earnings multiple = yearly net profit x your multiple.",
+    "Revenue multiple = yearly revenue x your multiple.",
+    "Net asset value = total assets - total liabilities.",
+    "Discounted cash flow adds up forecast cash flows discounted at your rate, plus a terminal value based on long-term growth. The discount rate must be higher than long-term growth."
+  ],
+  "example": "Net profit Rs. 2,000,000 with a multiple of 3 gives Rs. 6,000,000. Net assets of Rs. 4,500,000 (assets 6,000,000 less liabilities 1,500,000) give a lower view. The range shows both.",
+  "mistakes": [
+    "Using a multiple from a different industry.",
+    "Valuing on one unusually good year.",
+    "Ignoring debt when using revenue multiples.",
+    "Treating the result as a price."
+  ],
+  "faq": [
+    {
+      "q": "Which multiple should I use?",
+      "a": "It depends on the industry and the deal. Look at comparable sales or ask an adviser."
+    },
+    {
+      "q": "Why is DCF not shown?",
+      "a": "DCF needs a cash flow, a forecast period and a discount rate above the long-term growth rate."
+    },
+    {
+      "q": "Can I use this for a sale or tax filing?",
+      "a": "No. It is a starting point. Those uses need a qualified valuer."
+    },
+    {
+      "q": "Is my data saved?",
+      "a": "No."
+    }
+  ],
+  "related": {
+    "tools": [
+      "dscr-debt-service-coverage-calculator-pakistan",
+      "wacc-cost-of-capital-calculator-pakistan",
+      "business-health-check-pakistan"
+    ],
+    "blogs": [],
+    "services": [
+      {
+        "href": "/accounting-bookkeeping-services-pakistan/",
+        "label": "Accounting and bookkeeping services"
+      },
+      {
+        "href": "/audit-services-pakistan/",
+        "label": "Audit services in Pakistan"
+      }
+    ]
+  },
+  "disclaimer": "This tool does arithmetic on the figures you enter. It is not financial, tax or investment advice, and results are only as good as the numbers you put in. Talk to a qualified adviser before big decisions."
+}

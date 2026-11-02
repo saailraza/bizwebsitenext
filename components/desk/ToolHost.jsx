@@ -15,6 +15,12 @@ const TOOLS = {
   cashflow: dynamic(() => import('./tools/CashFlow'), { ssr: false, loading }),
   budget: dynamic(() => import('./tools/BudgetPlanner'), { ssr: false, loading }),
   variance: dynamic(() => import('./tools/Variance'), { ssr: false, loading }),
+  dscr: dynamic(() => import('./tools/Dscr'), { ssr: false, loading }),
+  valuation: dynamic(() => import('./tools/ValuationTool'), { ssr: false, loading }),
+  inventory: dynamic(() => import('./tools/InventoryValuation'), { ssr: false, loading }),
+  wacc: dynamic(() => import('./tools/Wacc'), { ssr: false, loading }),
+  health: dynamic(() => import('./tools/HealthCheck'), { ssr: false, loading }),
+  startup: dynamic(() => import('./tools/StartupCost'), { ssr: false, loading }),
   marla: dynamic(() => import('./tools/MarlaConverter'), { ssr: false, loading }),
 };
 

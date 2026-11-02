@@ -1,0 +1,68 @@
+{
+  "slug": "business-health-check-pakistan",
+  "desk": "cfo",
+  "component": "health",
+  "name": "Business Health Check",
+  "h1": "Business Health Check",
+  "title": "Business Health Check: Free Financial Score for Your Business",
+  "description": "Score your business out of 100 on profit margin, liquidity, debt, collections and growth using simple, transparent rules of thumb. Free.",
+  "updated": "2026-11-02",
+  "lead": "Enter a few figures from your accounts to get a quick score and see exactly how each point was earned.",
+  "profile": false,
+  "intro": [
+    "This is a quick self-check, not a credit rating. It looks at up to five measures and gives each 0, 1 or 2 points using the bands shown in the table.",
+    "The score is the points you earned as a share of the points possible for the measures you filled in. You need at least three measures. Industries differ, so use it as a prompt to ask questions. Nothing is uploaded."
+  ],
+  "how": [
+    "Net profit margin = net profit / revenue.",
+    "Current ratio = current assets / current liabilities.",
+    "Debt to equity = borrowings / owners' equity.",
+    "Days to collect = receivables / revenue x 365.",
+    "Revenue growth = (this year - last year) / last year.",
+    "Score = points earned / points possible x 100. Strong is 80 or more, Mixed is 50 to 79, below 50 needs attention."
+  ],
+  "example": "Revenue 10,000,000, net profit 1,200,000 (12%, 2 points), current ratio 1.6 (2), debt to equity 1.5 (1). Points 5 of 6 gives a score of 83, Strong.",
+  "mistakes": [
+    "Using figures from different periods.",
+    "Reading a low score as a verdict without checking your industry.",
+    "Leaving out borrowings.",
+    "Entering monthly revenue where yearly is needed."
+  ],
+  "faq": [
+    {
+      "q": "Is this a credit score?",
+      "a": "No. It is a rule-of-thumb self-check."
+    },
+    {
+      "q": "Why do I need three measures?",
+      "a": "One or two figures are too little for a fair score."
+    },
+    {
+      "q": "Can BIZEASE review my numbers?",
+      "a": "Yes, the first consultation is free."
+    },
+    {
+      "q": "Is data saved?",
+      "a": "No."
+    }
+  ],
+  "related": {
+    "tools": [
+      "working-capital-calculator-pakistan",
+      "dscr-debt-service-coverage-calculator-pakistan",
+      "budget-vs-actual-variance-analysis-pakistan"
+    ],
+    "blogs": [],
+    "services": [
+      {
+        "href": "/accounting-bookkeeping-services-pakistan/",
+        "label": "Accounting and bookkeeping services"
+      },
+      {
+        "href": "/audit-services-pakistan/",
+        "label": "Audit services in Pakistan"
+      }
+    ]
+  },
+  "disclaimer": "This tool does arithmetic on the figures you enter. It is not financial, tax or investment advice, and results are only as good as the numbers you put in. Talk to a qualified adviser before big decisions."
+}

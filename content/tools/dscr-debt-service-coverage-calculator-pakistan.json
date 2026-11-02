@@ -1,0 +1,66 @@
+{
+  "slug": "dscr-debt-service-coverage-calculator-pakistan",
+  "desk": "cfo",
+  "component": "dscr",
+  "name": "Debt Service Coverage (DSCR) Calculator",
+  "h1": "Debt Service Coverage (DSCR) Calculator",
+  "title": "Debt Service Coverage Ratio (DSCR) Calculator (Free)",
+  "description": "Work out your DSCR, the monthly instalment on a new loan and the largest loan your income can support. Free, nothing is uploaded.",
+  "updated": "2026-11-02",
+  "lead": "Enter your yearly income and loan details to see how many times your income covers your debt payments.",
+  "profile": false,
+  "intro": [
+    "The debt service coverage ratio (DSCR) shows how many times your income covers your loan payments for a year. A ratio of 1 means income only just covers the payments. Above 1 leaves a cushion.",
+    "Banks and lenders usually set their own minimum DSCR, and it differs by lender and loan type. This tool does not assume one. Ask your lender for theirs and enter it to see the largest loan your income could support. Everything is calculated in your browser."
+  ],
+  "how": [
+    "Monthly instalment = loan x r / (1 - (1 + r)^-n), where r is the monthly rate (yearly rate / 12) and n is the number of months.",
+    "Total yearly debt service = new loan instalments x 12 + payments on existing loans.",
+    "DSCR = yearly income available to pay debt / total yearly debt service.",
+    "Largest loan = the loan whose instalments, added to existing payments, keep DSCR at your lender's cover."
+  ],
+  "example": "Income Rs. 3,000,000 a year. Existing loan payments Rs. 600,000. New loan Rs. 2,000,000 at 12% for 3 years has an instalment of about Rs. 66,430 a month, or Rs. 797,000 a year. Total debt service is about Rs. 1,397,000, so DSCR is about 2.1 times.",
+  "mistakes": [
+    "Using profit after interest. Use income before interest and loan repayments.",
+    "Forgetting loans you already pay.",
+    "Assuming every lender wants the same cover.",
+    "Using revenue instead of income."
+  ],
+  "faq": [
+    {
+      "q": "What is a good DSCR?",
+      "a": "It depends on the lender and the loan. Ask your lender for the minimum they require."
+    },
+    {
+      "q": "Which income should I enter?",
+      "a": "Operating income before interest and loan repayments, for a normal year."
+    },
+    {
+      "q": "Does it include fees or insurance?",
+      "a": "No. Only principal and interest on a reducing balance."
+    },
+    {
+      "q": "Is my data saved?",
+      "a": "No. Nothing leaves your browser."
+    }
+  ],
+  "related": {
+    "tools": [
+      "working-capital-calculator-pakistan",
+      "cash-flow-forecast-pakistan",
+      "budget-planner-pakistan"
+    ],
+    "blogs": [],
+    "services": [
+      {
+        "href": "/accounting-bookkeeping-services-pakistan/",
+        "label": "Accounting and bookkeeping services"
+      },
+      {
+        "href": "/audit-services-pakistan/",
+        "label": "Audit services in Pakistan"
+      }
+    ]
+  },
+  "disclaimer": "This tool does arithmetic on the figures you enter. It is not financial, tax or investment advice, and results are only as good as the numbers you put in. Talk to a qualified adviser before big decisions."
+}

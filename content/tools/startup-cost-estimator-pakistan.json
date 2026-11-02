@@ -1,0 +1,62 @@
+{
+  "slug": "startup-cost-estimator-pakistan",
+  "desk": "cfo",
+  "component": "startup",
+  "name": "Startup Cost Estimator",
+  "h1": "Startup Cost Estimator",
+  "title": "Startup Cost Estimator: How Much Capital Do You Need? (Free)",
+  "description": "List one-time and monthly costs, add a buffer and see the total capital needed and the funding gap. Free, nothing is uploaded.",
+  "updated": "2026-11-02",
+  "lead": "Add your one-time and monthly costs to see how much money you need before the business can pay its own way.",
+  "profile": false,
+  "intro": [
+    "Many new businesses run short of cash because they plan for set-up costs but not for the months before sales cover the running costs.",
+    "This tool adds one-time costs, running costs for the months you choose and a buffer for surprises, then subtracts your own money to show what is left to raise. It has no preset prices, so enter quotes or estimates you have. Nothing is uploaded."
+  ],
+  "how": [
+    "Running costs = monthly total x months to cover.",
+    "Buffer = (one-time + running costs) x buffer %.",
+    "Total capital = one-time + running + buffer.",
+    "Funding gap = total capital - your own funds."
+  ],
+  "example": "One-time Rs. 800,000, monthly Rs. 150,000 for 3 months (Rs. 450,000), buffer 10% (Rs. 125,000). Total Rs. 1,375,000. With Rs. 1,000,000 of your own money, Rs. 375,000 is still to raise.",
+  "mistakes": [
+    "Ignoring months with no sales.",
+    "Forgetting deposits and advance rent.",
+    "Setting no buffer.",
+    "Counting sales you have not made yet as funding."
+  ],
+  "faq": [
+    {
+      "q": "How many months should I cover?",
+      "a": "Enough for sales to reach a level that pays costs. Be honest about how long that takes."
+    },
+    {
+      "q": "What buffer is sensible?",
+      "a": "There is no fixed rule. Use more when your estimates are rough."
+    },
+    {
+      "q": "Is data saved?",
+      "a": "No. Print or download your result."
+    }
+  ],
+  "related": {
+    "tools": [
+      "budget-planner-pakistan",
+      "cash-flow-forecast-pakistan",
+      "business-health-check-pakistan"
+    ],
+    "blogs": [],
+    "services": [
+      {
+        "href": "/company-registration-pakistan/",
+        "label": "Company registration in Pakistan"
+      },
+      {
+        "href": "/accounting-bookkeeping-services-pakistan/",
+        "label": "Accounting and bookkeeping services"
+      }
+    ]
+  },
+  "disclaimer": "This tool does arithmetic on the figures you enter. It is not financial, tax or investment advice, and results are only as good as the numbers you put in. Talk to a qualified adviser before big decisions."
+}

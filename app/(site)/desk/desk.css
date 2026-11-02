@@ -178,3 +178,8 @@
 @media(max-width:700px){.dk-ln3{grid-template-columns:1fr 1fr 34px}.dk-ln3 input:first-child{grid-column:1/-1}.dk-ln3.dk-hd{display:none}.dk-ln4{grid-template-columns:1fr 1fr}.dk-ln4 input:first-child{grid-column:1/-1}}
 @media print{.dk-fs{border-color:#999;break-inside:avoid}.dk-vt input,.dk-vt select,.dk-fs input{border:0;padding:0;background:none}.dk-vt select{appearance:none}.dk-chart{color:#000}.dk-x{display:none}}
 @media print{.dk-ln3,.dk-ln{grid-template-columns:minmax(0,3.2fr) minmax(0,1.3fr) minmax(0,.8fr)!important}.dk-ln3 .dk-x,.dk-ln .dk-x{display:none}}
+/* CFO part 2 */
+.dk-score{display:flex;align-items:baseline;gap:12px;border:2px solid var(--brand,#0b5);border-radius:14px;padding:12px 18px;margin:14px 0;max-width:420px}
+.dk-score b{font-size:2.4rem;line-height:1}.dk-score span{font-weight:600}
+.dk-score.bad{border-color:#b3261e}.dk-score.bad b{color:#b3261e}
+.dk-row small{font-weight:400}
