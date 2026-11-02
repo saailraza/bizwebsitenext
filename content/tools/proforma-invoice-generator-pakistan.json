@@ -1,0 +1,64 @@
+{
+  "slug": "proforma-invoice-generator-pakistan",
+  "desk": "documents",
+  "component": "proforma",
+  "name": "Proforma Invoice Generator",
+  "h1": "Proforma Invoice Generator",
+  "title": "Proforma Invoice Generator Pakistan (Free, PDF)",
+  "description": "Make a proforma invoice with buyer details, items, optional tax, validity date and bank details. Free, prints to PDF, nothing is uploaded.",
+  "updated": "2026-11-02",
+  "lead": "Send a buyer a clear advance invoice before the order is confirmed or paid.",
+  "profile": true,
+  "intro": [
+    "A proforma invoice tells a buyer what the final invoice will contain. It is often used to confirm an order, to ask for an advance payment, or to support an import or bank application.",
+    "It is not a tax invoice. When you deliver and the sale happens, a registered person issues a sales tax invoice. Everything is made in your browser. Nothing you type is sent to BIZEASE."
+  ],
+  "how": [
+    "Add the buyer and items with quantity and rate.",
+    "Set a validity date so the price does not stay open for ever.",
+    "Put bank details and terms in the notes box.",
+    "The sheet carries a line saying it is not a tax invoice."
+  ],
+  "example": "10 units at Rs. 5,000 = Rs. 50,000. With 0% tax the proforma total is Rs. 50,000. When the goods are delivered you issue the tax invoice.",
+  "mistakes": [
+    "Treating a proforma as a tax invoice.",
+    "Not writing a validity date.",
+    "Leaving out delivery time and payment terms.",
+    "Changing the final invoice without telling the buyer."
+  ],
+  "faq": [
+    {
+      "q": "Is a proforma invoice a tax invoice?",
+      "a": "No. It is a quote in invoice form. A registered person issues a sales tax invoice for the actual taxable supply."
+    },
+    {
+      "q": "Can a buyer pay against a proforma invoice?",
+      "a": "Yes, many buyers pay an advance against it. Keep a receipt for the payment."
+    },
+    {
+      "q": "Should it show sales tax?",
+      "a": "You can show tax as a line or quote exclusive of tax. This tool lets you do either."
+    }
+  ],
+  "related": {
+    "tools": [
+      "sales-tax-invoice-generator-pakistan",
+      "quotation-generator-pakistan",
+      "credit-debit-note-generator-pakistan"
+    ],
+    "blogs": [
+      "sales-tax-pakistan-fbr-pra-srb-guide"
+    ],
+    "services": [
+      {
+        "href": "/accounting-bookkeeping-services-pakistan/",
+        "label": "Accounting and bookkeeping services"
+      },
+      {
+        "href": "/tax-consultant-pakistan/",
+        "label": "Tax consultant in Pakistan"
+      }
+    ]
+  },
+  "disclaimer": "This tool only lays out the details you type. A proforma invoice is not a tax invoice and does not file anything with FBR. It is not legal or tax advice."
+}

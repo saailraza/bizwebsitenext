@@ -1,0 +1,62 @@
+{
+  "slug": "salary-certificate-generator-pakistan",
+  "desk": "documents",
+  "component": "salcert",
+  "name": "Salary Certificate Generator",
+  "h1": "Salary Certificate Generator",
+  "title": "Salary Certificate Generator Pakistan (Free, PDF)",
+  "description": "Create a salary certificate that states the employee, designation, joining date and gross monthly salary in figures and words. Free, prints to PDF, nothing is uploaded.",
+  "updated": "2026-11-02",
+  "lead": "Fill in the employee details and print a salary certificate for a bank, embassy or landlord.",
+  "profile": true,
+  "intro": [
+    "A salary certificate confirms that a person works for you and what they earn. Employees ask for it when they apply for a bank loan, a visa or a rented home.",
+    "It is issued on the company letterhead and signed by an authorised person. Everything is made in your browser. Nothing you type is sent to BIZEASE."
+  ],
+  "how": [
+    "Enter the employee name, CNIC, designation and joining date.",
+    "Enter the gross monthly salary. The tool writes it in words.",
+    "Say who it is for (a bank, an embassy).",
+    "Print it on your letterhead and sign it."
+  ],
+  "example": "Employee Ali Khan, Accountant, joined 10 January 2022, gross salary Rs. 85,000. The certificate states \"Rupees eighty-five thousand only\".",
+  "mistakes": [
+    "Writing net salary when the bank asks for gross.",
+    "Not saying who the certificate is for.",
+    "Leaving it unsigned or without the company stamp.",
+    "Issuing it for an employee who has left."
+  ],
+  "faq": [
+    {
+      "q": "Gross or net salary?",
+      "a": "Most banks and embassies ask for gross monthly salary, but check what they need. Change the wording in the box if the net figure is required."
+    },
+    {
+      "q": "Is a salary certificate a legal document?",
+      "a": "It is a company statement. The company is responsible for its accuracy."
+    },
+    {
+      "q": "Can I add a line?",
+      "a": "Yes, use the additional line box."
+    }
+  ],
+  "related": {
+    "tools": [
+      "experience-certificate-generator-pakistan",
+      "salary-slip-generator-pakistan",
+      "appointment-letter-generator-pakistan"
+    ],
+    "blogs": [],
+    "services": [
+      {
+        "href": "/payroll-hr-outsourcing-pakistan/",
+        "label": "Payroll and HR outsourcing"
+      },
+      {
+        "href": "/accounting-bookkeeping-services-pakistan/",
+        "label": "Accounting and bookkeeping services"
+      }
+    ]
+  },
+  "disclaimer": "This tool only lays out the details you type. It is a sample format, not legal advice, and it does not check your employment terms against the law. Have important documents reviewed by a qualified adviser."
+}

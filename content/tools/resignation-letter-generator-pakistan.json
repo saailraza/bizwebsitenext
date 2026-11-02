@@ -1,0 +1,58 @@
+{
+  "slug": "resignation-letter-generator-pakistan",
+  "desk": "documents",
+  "component": "resign",
+  "name": "Resignation Letter Generator",
+  "h1": "Resignation Letter Generator",
+  "title": "Resignation Letter Generator (Free, PDF)",
+  "description": "Write a polite resignation letter with your designation, last working day and an optional reason. Free, prints to PDF, nothing is uploaded.",
+  "updated": "2026-11-02",
+  "lead": "Fill in a few details and print a clear, professional resignation letter.",
+  "profile": true,
+  "intro": [
+    "A resignation letter formally tells your employer that you are leaving and when your last day will be. A short, polite letter keeps the relationship good and gives you a record of the date.",
+    "Check your appointment letter for the notice period before you pick your last working day. Everything is made in your browser. Nothing you type is sent to BIZEASE."
+  ],
+  "how": [
+    "Enter your name, designation and the company.",
+    "Address it to your manager or HR with their title.",
+    "Choose your last working day, allowing for your notice period.",
+    "Add a reason only if you want to."
+  ],
+  "example": "An Accountant writes to the HR Manager that her last working day will be 31 December 2026, and offers to complete the handover.",
+  "mistakes": [
+    "Not checking the notice period.",
+    "Writing angry reasons in the letter.",
+    "Not keeping a signed copy.",
+    "Forgetting to ask for the final settlement and experience certificate."
+  ],
+  "faq": [
+    {
+      "q": "Do I have to give a reason?",
+      "a": "No. The reason box is optional."
+    },
+    {
+      "q": "How much notice must I give?",
+      "a": "It depends on your appointment letter and the law that applies to you. Check your own contract."
+    },
+    {
+      "q": "Does the letter need my employer's logo?",
+      "a": "No. It is a personal letter, so only your details appear."
+    }
+  ],
+  "related": {
+    "tools": [
+      "leave-application-generator-pakistan",
+      "experience-certificate-generator-pakistan",
+      "appointment-letter-generator-pakistan"
+    ],
+    "blogs": [],
+    "services": [
+      {
+        "href": "/payroll-hr-outsourcing-pakistan/",
+        "label": "Payroll and HR outsourcing"
+      }
+    ]
+  },
+  "disclaimer": "This tool only lays out the details you type. It is a sample format and not legal advice. Check your own contract for notice and final settlement."
+}

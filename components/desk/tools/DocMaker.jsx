@@ -1,7 +1,7 @@
 'use client';
 import { useMemo, useState } from 'react';
 import BusinessProfile from '../BusinessProfile';
-import { KINDS, COL_LABEL, totals, num, money, rupeesInWords, invoiceChecklist } from '@/lib/docKinds';
+import { KINDS, COL_LABEL, totals, num, money, rupeesInWords, invoiceChecklist, letterText, slipTotals, longDate, longMonth } from '@/lib/docKinds';
 import { downloadCsv } from '@/lib/deskExport';
 import { EMPTY_PROFILE } from '@/lib/businessProfile';
 
@@ -13,7 +13,7 @@ const PARTY = ['pname', 'pid', 'paddr', 'phone'];
 function initial(K) {
   const v = {};
   K.fields.forEach((f) => {
-    v[f.k] = f.k === 'no' ? K.prefix + '0001' : f.k === 'date' ? today() : f.type === 'select' ? f.opts[0] : '';
+    v[f.k] = f.k === 'no' ? K.prefix + '0001' : f.k === 'date' ? today() : f.type === 'month' ? today().slice(0, 7) : f.type === 'select' ? f.opts[0] : '';
   });
   return v;
 }
@@ -29,16 +29,20 @@ export default function DocMaker({ kind, rates }) {
   const [words, setWords] = useState(true);
   const [brand, setBrand] = useState(true);
   const [profile, setProfile] = useState(EMPTY_PROFILE);
+  const [earn, setEarn] = useState(() => (K.lines ? K.lines.earn.map((l) => ({ label: l, amount: '' })) : []));
+  const [ded, setDed] = useState(() => (K.lines ? K.lines.ded.map((l) => ({ label: l, amount: '' })) : []));
 
   const set = (k, val) => setV((o) => ({ ...o, [k]: val }));
   const setItem = (i, k, val) => setItems((a) => a.map((x, j) => (j === i ? { ...x, [k]: val } : x)));
   const hasPrice = !!(K.items && K.items.cols.includes('price'));
   const T = useMemo(() => (K.items ? totals(items, K.items.discount ? discount : 0, K.items.tax ? taxRate : 0) : null), [items, discount, taxRate, K]);
   const amount = K.simple ? Math.max(num(v.amount), 0) : 0;
-  const grand = K.simple ? amount : T && hasPrice ? T.total : 0;
-  const title = kind === 'voucher' ? `${v.vtype} Voucher` : K.title;
+  const S = K.lines ? slipTotals(earn, ded) : null;
+  const grand = K.simple ? amount : S ? Math.max(S.net, 0) : T && hasPrice ? T.total : 0;
+  const title = kind === 'voucher' ? `${v.vtype} Voucher` : K.titleBy ? v[K.titleBy] : K.title;
+  const L = K.letter ? letterText(kind, v, profile, notes) : null;
   const due = num(v.due);
-  const bad = (K.items && items.some((i) => num(i.qty) < 0 || num(i.price) < 0)) || (K.simple && num(v.amount) < 0);
+  const bad = (K.items && items.some((i) => num(i.qty) < 0 || num(i.price) < 0)) || (K.simple && num(v.amount) < 0) || (K.lines && [...earn, ...ded].some((l) => num(l.amount) < 0));
   const check = K.checklist && T ? invoiceChecklist(v, items, profile, T) : null;
   const showTax = K.items && K.items.tax && (kind === 'invoice' || T.rate > 0);
   const filled = items.filter((i) => i.desc.trim() || num(i.price) > 0);
@@ -52,6 +56,14 @@ export default function DocMaker({ kind, rates }) {
   function csv() {
     const rows = [[title], ['Number', v.no], ['Date', dmy(v.date)], [], ['Business', profile.name], ['NTN', profile.ntn], ['STRN', profile.strn], []];
     K.fields.forEach((f) => !['no', 'date'].includes(f.k) && rows.push([f.label, v[f.k]]));
+    if (K.lines) {
+      rows.push([], ['Earnings', 'Amount']);
+      earn.forEach((l) => l.label && rows.push([l.label, num(l.amount)]));
+      rows.push(['Total earnings', S.earn], [], ['Deductions', 'Amount']);
+      ded.forEach((l) => l.label && rows.push([l.label, num(l.amount)]));
+      rows.push(['Total deductions', S.ded], [], ['Net pay', S.net]);
+    }
+    if (L) rows.push([], ...L.paras.map((t) => [t]));
     if (K.items) {
       rows.push([], ['#', ...K.items.cols.map((c) => COL_LABEL[c]), ...(hasPrice ? ['Amount'] : [])]);
       filled.forEach((it, i) => rows.push([i + 1, ...K.items.cols.map((c) => (c === 'qty' || c === 'price' ? num(it[c]) : it[c])), ...(hasPrice ? [T.lines[items.indexOf(it)]] : [])]));
@@ -67,6 +79,10 @@ export default function DocMaker({ kind, rates }) {
   function reset() {
     setV(initial(K));
     setItems([blankItem()]);
+    if (K.lines) {
+      setEarn(K.lines.earn.map((l) => ({ label: l, amount: '' })));
+      setDed(K.lines.ded.map((l) => ({ label: l, amount: '' })));
+    }
     setDiscount('');
     setNotes('');
   }
@@ -88,8 +104,10 @@ export default function DocMaker({ kind, rates }) {
                     <option key={o}>{o}</option>
                   ))}
                 </select>
+              ) : f.type === 'area' ? (
+                <textarea rows={3} maxLength={400} value={v[f.k]} onChange={(e) => set(f.k, e.target.value)} />
               ) : (
-                <input type={f.type === 'date' ? 'date' : 'text'} inputMode={f.type === 'number' ? 'decimal' : undefined} maxLength={f.wide ? 240 : 120} value={v[f.k]} onChange={(e) => set(f.k, e.target.value)} />
+                <input type={f.type === 'date' ? 'date' : f.type === 'month' ? 'month' : 'text'} inputMode={f.type === 'number' ? 'decimal' : undefined} maxLength={f.wide ? 240 : 120} value={v[f.k]} onChange={(e) => set(f.k, e.target.value)} />
               )}
             </label>
           ))}
@@ -140,6 +158,28 @@ export default function DocMaker({ kind, rates }) {
           </div>
         )}
 
+        {K.lines && (
+          <div className="dk-lines">
+            {[['Earnings', earn, setEarn], ['Deductions', ded, setDed]].map(([h, arr, setArr]) => (
+              <div key={h}>
+                <h3>{h}</h3>
+                {arr.map((l, i) => (
+                  <div className="dk-ln" key={i}>
+                    <input aria-label={`${h} name ${i + 1}`} placeholder="Name" maxLength={60} value={l.label} onChange={(e) => setArr((a) => a.map((x, j) => (j === i ? { ...x, label: e.target.value } : x)))} />
+                    <input aria-label={`${h} amount ${i + 1}`} placeholder="Amount" inputMode="decimal" value={l.amount} onChange={(e) => setArr((a) => a.map((x, j) => (j === i ? { ...x, amount: e.target.value } : x)))} />
+                    <button type="button" className="dk-x" aria-label={`Remove ${h.toLowerCase()} ${i + 1}`} onClick={() => setArr((a) => a.filter((_, j) => j !== i))}>
+                      ×
+                    </button>
+                  </div>
+                ))}
+                <button type="button" className="btn o" disabled={arr.length >= 15} onClick={() => setArr((a) => [...a, { label: '', amount: '' }])}>
+                  Add line
+                </button>
+              </div>
+            ))}
+          </div>
+        )}
+
         {K.notes && (
           <label className="dk-ta">
             {K.notes}
@@ -147,7 +187,7 @@ export default function DocMaker({ kind, rates }) {
           </label>
         )}
         <div className="dk-opts">
-          {(K.simple || hasPrice) && (
+          {(K.simple || hasPrice || K.lines) && (
             <label>
               <input type="checkbox" checked={words} onChange={(e) => setWords(e.target.checked)} /> Show amount in words
             </label>
@@ -186,6 +226,9 @@ export default function DocMaker({ kind, rates }) {
       </div>
 
       <div className="dk-sheet" id="dk-sheet" aria-label={`${title} preview`}>
+        {K.plain ? (
+          <div className="sh-date">{longDate(v.date)}</div>
+        ) : (
         <div className="sh-top">
           <div className="sh-biz">
             {profile.logo && (
@@ -207,12 +250,15 @@ export default function DocMaker({ kind, rates }) {
           </div>
           <div className="sh-title">
             <h2>{title.toUpperCase()}</h2>
-            <div>No: {v.no}</div>
+            {v.no && <div>No: {v.no}</div>}
             <div>Date: {dmy(v.date)}</div>
           </div>
         </div>
 
-        {partyLines.length > 0 && (
+        )}
+        {K.banner && <p className="sh-banner">{K.banner}</p>}
+
+        {!K.letter && partyLines.length > 0 && (
           <div className="sh-party">
             <small>{K.party}</small>
             {partyLines.map((k) => (
@@ -223,15 +269,81 @@ export default function DocMaker({ kind, rates }) {
             ))}
           </div>
         )}
-        {metaFields.length > 0 && (
+        {!K.letter && metaFields.length > 0 && (
           <table className="sh-meta">
             <tbody>
               {metaFields.map((f) => (
                 <tr key={f.k}>
                   <th>{f.label}</th>
-                  <td>{f.type === 'date' ? dmy(v[f.k]) : v[f.k]}</td>
+                  <td>{f.type === 'date' ? dmy(v[f.k]) : f.type === 'month' ? longMonth(v[f.k]) : v[f.k]}</td>
                 </tr>
               ))}
+            </tbody>
+          </table>
+        )}
+
+        {L && (
+          <div className="sh-letter">
+            {L.to.length > 0 && (
+              <div className="sh-to">
+                {L.to.map((t, i) => (
+                  <div key={i}>{t}</div>
+                ))}
+              </div>
+            )}
+            <p className="sh-subj">
+              <b>Subject: {L.subject}</b>
+            </p>
+            {L.paras.map((t, i) => (
+              <p key={i}>{t}</p>
+            ))}
+            {L.list && (
+              <ol className="sh-terms">
+                {L.list.map((t, i) => (
+                  <li key={i}>{t}</li>
+                ))}
+              </ol>
+            )}
+            {(L.post || []).map((t, i) => (
+              <p key={'p' + i}>{t}</p>
+            ))}
+          </div>
+        )}
+        {K.lines && (
+          <div className="sh-slip">
+            {[['Earnings', earn, S.earn, 'Total earnings'], ['Deductions', ded, S.ded, 'Total deductions']].map(([h, arr, tot, tl]) => (
+              <table key={h} className="sh-items">
+                <thead>
+                  <tr>
+                    <th>{h}</th>
+                    <th className="r">Amount (Rs.)</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {arr
+                    .filter((l) => l.label.trim() && num(l.amount) !== 0)
+                    .map((l, i) => (
+                      <tr key={i}>
+                        <td>{l.label}</td>
+                        <td className="r">{money(Math.max(num(l.amount), 0))}</td>
+                      </tr>
+                    ))}
+                  <tr className="sum">
+                    <td>{tl}</td>
+                    <td className="r">{money(tot)}</td>
+                  </tr>
+                </tbody>
+              </table>
+            ))}
+          </div>
+        )}
+        {K.lines && (
+          <table className="sh-tot">
+            <tbody>
+              <tr className="grand">
+                <th>Net pay (Rs.)</th>
+                <td>{money(S.net)}</td>
+              </tr>
             </tbody>
           </table>
         )}
@@ -318,8 +430,8 @@ export default function DocMaker({ kind, rates }) {
             </tbody>
           </table>
         )}
-        {words && grand > 0 && (K.simple || hasPrice) && <p className="sh-words">{rupeesInWords(grand)}</p>}
-        {notes && <p className="sh-notes">{notes}</p>}
+        {words && grand > 0 && (K.simple || hasPrice || K.lines) && <p className="sh-words">{rupeesInWords(grand)}</p>}
+        {notes && !K.letter && <p className="sh-notes">{notes}</p>}
 
         <div className="sh-sign">
           {K.sign.map((s, i) => (

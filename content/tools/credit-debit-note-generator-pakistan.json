@@ -1,0 +1,64 @@
+{
+  "slug": "credit-debit-note-generator-pakistan",
+  "desk": "documents",
+  "component": "note",
+  "name": "Credit Note and Debit Note Generator",
+  "h1": "Credit Note and Debit Note Generator",
+  "title": "Credit Note and Debit Note Generator Pakistan (Free, PDF)",
+  "description": "Make a credit note or debit note that refers to the original invoice, with items, optional sales tax and the reason. Free, prints to PDF, nothing is uploaded.",
+  "updated": "2026-11-02",
+  "lead": "Correct an invoice after the sale: a credit note reduces what the customer owes, a debit note increases it.",
+  "profile": true,
+  "intro": [
+    "A credit note is issued when you return money or reduce an earlier invoice, for example for returned goods or a price correction. A debit note is issued when the amount was too low and you need to charge more.",
+    "Choose the note type, refer to the invoice number and date, list the items and the reason. Everything is made in your browser. Nothing you type is sent to BIZEASE."
+  ],
+  "how": [
+    "Pick Credit Note or Debit Note.",
+    "Enter the original invoice number and date, and the reason.",
+    "List only the items and amounts being corrected.",
+    "Add the sales tax rate if the original invoice carried tax."
+  ],
+  "example": "A customer returns 2 items sold at Rs. 3,000 each on an invoice with 18% tax. The credit note shows Rs. 6,000 plus Rs. 1,080 tax, a total credit of Rs. 7,080.",
+  "mistakes": [
+    "Not referring to the original invoice.",
+    "Giving a credit note without writing down why.",
+    "Forgetting to reverse the tax on the returned goods.",
+    "Reusing a note number."
+  ],
+  "faq": [
+    {
+      "q": "What is the difference between a credit and a debit note?",
+      "a": "A credit note reduces what the customer owes you. A debit note increases it."
+    },
+    {
+      "q": "Do I need to show tax on a note?",
+      "a": "If the original invoice had sales tax, the correction usually carries the matching tax. Ask your adviser how your adjustments must be reported."
+    },
+    {
+      "q": "Is this an FBR document?",
+      "a": "No. It is a layout for your records. It does not file anything with FBR."
+    }
+  ],
+  "related": {
+    "tools": [
+      "sales-tax-invoice-generator-pakistan",
+      "proforma-invoice-generator-pakistan",
+      "payment-receipt-generator-pakistan"
+    ],
+    "blogs": [
+      "sales-tax-pakistan-fbr-pra-srb-guide"
+    ],
+    "services": [
+      {
+        "href": "/accounting-bookkeeping-services-pakistan/",
+        "label": "Accounting and bookkeeping services"
+      },
+      {
+        "href": "/tax-consultant-pakistan/",
+        "label": "Tax consultant in Pakistan"
+      }
+    ]
+  },
+  "disclaimer": "This tool only lays out the details you type. How credit and debit notes must be reported to FBR or a provincial authority is not checked here. It is not legal or tax advice."
+}

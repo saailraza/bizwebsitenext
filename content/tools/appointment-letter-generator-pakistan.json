@@ -1,0 +1,62 @@
+{
+  "slug": "appointment-letter-generator-pakistan",
+  "desk": "documents",
+  "component": "appoint",
+  "name": "Appointment Letter Generator",
+  "h1": "Appointment Letter Generator",
+  "title": "Appointment Letter Generator Pakistan (Free, PDF)",
+  "description": "Create an appointment letter with designation, joining date, salary, probation, notice period and working hours. Free, prints to PDF, nothing is uploaded.",
+  "updated": "2026-11-02",
+  "lead": "Set out the main terms of a new hire in a clear letter that the employee can sign and return.",
+  "profile": true,
+  "intro": [
+    "An appointment letter records the job, the start date, the salary and the main terms before work begins. It avoids later disagreements about what was promised.",
+    "This tool creates a simple sample letter with the usual headings. Employment contracts can need more terms. Everything is made in your browser. Nothing you type is sent to BIZEASE."
+  ],
+  "how": [
+    "Enter the employee and the job: designation, department and who they report to.",
+    "Enter the joining date, gross monthly salary, probation and notice period.",
+    "Add working hours and any extra terms.",
+    "Print two copies and have the employee sign one and return it."
+  ],
+  "example": "A letter appoints an Accounts Officer from 1 January 2027 on Rs. 90,000 gross, a 3-month probation, 30 days notice and 9 am to 6 pm, Monday to Friday.",
+  "mistakes": [
+    "Leaving out probation and notice terms.",
+    "Promising benefits that are not in company policy.",
+    "Not getting the employee's signature.",
+    "Using a sample without checking it against your company policy and the law."
+  ],
+  "faq": [
+    {
+      "q": "Is this a full employment contract?",
+      "a": "No. It is a sample appointment letter covering the common basics. Ask a lawyer to review your standard contract."
+    },
+    {
+      "q": "Does it cover tax and EOBI?",
+      "a": "It says salary is subject to deductions required by law. It does not calculate any deduction."
+    },
+    {
+      "q": "Can I add terms?",
+      "a": "Yes. Use the additional terms box."
+    }
+  ],
+  "related": {
+    "tools": [
+      "salary-slip-generator-pakistan",
+      "experience-certificate-generator-pakistan",
+      "salary-certificate-generator-pakistan"
+    ],
+    "blogs": [],
+    "services": [
+      {
+        "href": "/payroll-hr-outsourcing-pakistan/",
+        "label": "Payroll and HR outsourcing"
+      },
+      {
+        "href": "/accounting-bookkeeping-services-pakistan/",
+        "label": "Accounting and bookkeeping services"
+      }
+    ]
+  },
+  "disclaimer": "This tool only lays out the details you type. It is a sample format, not legal advice, and it does not check your employment terms against the law. Have important documents reviewed by a qualified adviser."
+}

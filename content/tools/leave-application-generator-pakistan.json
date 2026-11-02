@@ -1,0 +1,58 @@
+{
+  "slug": "leave-application-generator-pakistan",
+  "desk": "documents",
+  "component": "leave",
+  "name": "Leave Application Generator",
+  "h1": "Leave Application Generator",
+  "title": "Leave Application Generator (Free, PDF)",
+  "description": "Write a leave application with the type of leave, dates, number of days and reason. Free, prints to PDF, nothing is uploaded.",
+  "updated": "2026-11-02",
+  "lead": "Choose the type of leave and dates, and print a clear leave application. The number of days is counted for you.",
+  "profile": true,
+  "intro": [
+    "A leave application asks your manager to approve time off. Clear dates, a reason and a contact number help it get approved faster.",
+    "The number of days counts both the first and last date. Everything is made in your browser. Nothing you type is sent to BIZEASE."
+  ],
+  "how": [
+    "Pick the type of leave (casual, sick, annual, without pay).",
+    "Enter the first and last date. The days are counted for you.",
+    "Add a short reason and a number where you can be reached.",
+    "Print it or save it as a PDF to send."
+  ],
+  "example": "From 1 December 2026 to 3 December 2026 is 3 days of leave. The letter says: \"I request sick leave for 3 days, from 1 December 2026 to 3 December 2026.\"",
+  "mistakes": [
+    "Forgetting to count both start and end dates.",
+    "Not giving a contact number for urgent matters.",
+    "Applying too late for planned leave.",
+    "Not saying who will cover your work."
+  ],
+  "faq": [
+    {
+      "q": "How are the days counted?",
+      "a": "Both the first and the last date are counted, so 1 to 3 December is 3 days. Weekends and holidays inside the range are also counted. Change the wording if your company counts working days only."
+    },
+    {
+      "q": "Is a medical certificate needed for sick leave?",
+      "a": "Many employers ask for one after a certain number of days. Check your company policy."
+    },
+    {
+      "q": "Can I send it as a PDF?",
+      "a": "Yes. Use \"Print or save as PDF\"."
+    }
+  ],
+  "related": {
+    "tools": [
+      "resignation-letter-generator-pakistan",
+      "salary-slip-generator-pakistan",
+      "experience-certificate-generator-pakistan"
+    ],
+    "blogs": [],
+    "services": [
+      {
+        "href": "/payroll-hr-outsourcing-pakistan/",
+        "label": "Payroll and HR outsourcing"
+      }
+    ]
+  },
+  "disclaimer": "This tool only lays out the details you type. It is a sample format. Your leave entitlement depends on your contract and company policy."
+}

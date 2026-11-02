@@ -5,7 +5,7 @@ const loading = () => <p className="dk-load">Loading tool…</p>;
 const DocMaker = dynamic(() => import('./tools/DocMaker'), { ssr: false, loading });
 
 // Document tools share one component; the id picks the document (see lib/docKinds.js).
-const DOC_IDS = ['invoice', 'quote', 'memo', 'challan', 'po', 'receipt', 'voucher'];
+const DOC_IDS = ['invoice', 'quote', 'memo', 'challan', 'po', 'receipt', 'voucher', 'proforma', 'note', 'payslip', 'salcert', 'expcert', 'appoint', 'resign', 'leave'];
 
 // Add one line here for every other tool: key (the "component" field in content/tools/*.json) -> component.
 const TOOLS = {

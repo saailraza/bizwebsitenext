@@ -1,0 +1,64 @@
+{
+  "slug": "salary-slip-generator-pakistan",
+  "desk": "documents",
+  "component": "payslip",
+  "name": "Salary Slip Generator",
+  "h1": "Salary Slip Generator",
+  "title": "Salary Slip Generator Pakistan (Free, PDF)",
+  "description": "Make a salary slip with earnings, deductions and net pay in figures and words. Free, prints to PDF, nothing is uploaded.",
+  "updated": "2026-11-02",
+  "lead": "Add the employee, the earnings and the deductions, and print a clear salary slip.",
+  "profile": true,
+  "intro": [
+    "A salary slip shows what an employee earned in a month, what was deducted, and what was paid. It helps employees with banks, visas and their own records, and helps employers keep clean payroll files.",
+    "You type the amounts. The tool adds them and writes net pay in words. It does not work out income tax, EOBI or provident fund for you, because those depend on current rules and your employee. Everything is made in your browser. Nothing you type is sent to BIZEASE."
+  ],
+  "how": [
+    "Enter the employee details and the salary month.",
+    "List earnings such as basic salary, house rent and allowances.",
+    "List deductions such as income tax, EOBI, provident fund or loan recovery.",
+    "Net pay is total earnings minus total deductions."
+  ],
+  "example": "Earnings: basic Rs. 60,000 + house rent Rs. 20,000 + medical Rs. 5,000 = Rs. 85,000. Deductions: income tax Rs. 3,000 + provident fund Rs. 2,000 = Rs. 5,000. Net pay is Rs. 80,000.",
+  "mistakes": [
+    "Taking the deduction amounts from an old month without checking them.",
+    "Mixing up gross and net salary.",
+    "Not writing the salary month.",
+    "Handing over a slip without the employer's signature or stamp."
+  ],
+  "faq": [
+    {
+      "q": "Does it calculate income tax or EOBI?",
+      "a": "No. You enter each deduction. Those figures depend on current slabs and rules, so use your payroll adviser or the current official rates."
+    },
+    {
+      "q": "Can I add my own earnings or deductions?",
+      "a": "Yes. Use \"Add line\" for bonus, overtime, fuel allowance or any other line."
+    },
+    {
+      "q": "Can I keep a record of all slips?",
+      "a": "The tool does not save slips. Print or download each one. Excel (CSV) download is available."
+    }
+  ],
+  "related": {
+    "tools": [
+      "salary-certificate-generator-pakistan",
+      "experience-certificate-generator-pakistan",
+      "appointment-letter-generator-pakistan"
+    ],
+    "blogs": [
+      "withholding-tax-in-pakistan-explained"
+    ],
+    "services": [
+      {
+        "href": "/payroll-hr-outsourcing-pakistan/",
+        "label": "Payroll and HR outsourcing"
+      },
+      {
+        "href": "/accounting-bookkeeping-services-pakistan/",
+        "label": "Accounting and bookkeeping services"
+      }
+    ]
+  },
+  "disclaimer": "This tool only lays out the details you type. It is a sample format, not legal advice, and it does not check your employment terms against the law. Have important documents reviewed by a qualified adviser."
+}

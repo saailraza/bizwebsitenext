@@ -1,0 +1,58 @@
+{
+  "slug": "experience-certificate-generator-pakistan",
+  "desk": "documents",
+  "component": "expcert",
+  "name": "Experience Certificate Generator",
+  "h1": "Experience Certificate Generator",
+  "title": "Experience Certificate Generator Pakistan (Free, PDF)",
+  "description": "Create an experience certificate showing designation, joining date, last working day and a remark on conduct. Free, prints to PDF, nothing is uploaded.",
+  "updated": "2026-11-02",
+  "lead": "Fill in the details and print an experience certificate on your letterhead.",
+  "profile": true,
+  "intro": [
+    "An experience certificate tells a future employer where a person worked, in what role and for how long. A clear one helps the employee move on and shows that your company is well run.",
+    "Pick a remark that is true for the employee, or choose \"No remark\" to state only the facts. Everything is made in your browser. Nothing you type is sent to BIZEASE."
+  ],
+  "how": [
+    "Enter the employee name, designation and department.",
+    "Enter the joining date and last working day.",
+    "Choose a remark on work and conduct, or none.",
+    "Print on letterhead and sign."
+  ],
+  "example": "Sara Ahmed worked as a Marketing Executive from 1 March 2021 to 30 June 2024. The certificate states these dates and that she showed professionalism and good conduct.",
+  "mistakes": [
+    "Wrong dates of joining or leaving.",
+    "Writing praise that is not accurate.",
+    "Giving a certificate before final settlement is agreed, if your policy requires it.",
+    "No signature or company details."
+  ],
+  "faq": [
+    {
+      "q": "Must a company give an experience certificate?",
+      "a": "Check your contract, company policy and the law that applies to you. Many employers issue one as a courtesy."
+    },
+    {
+      "q": "Can I state only the facts?",
+      "a": "Yes. Choose \"No remark\"."
+    },
+    {
+      "q": "Can I use my letterhead?",
+      "a": "Yes. Add your business name, logo and address in the profile, or print on your own letterhead."
+    }
+  ],
+  "related": {
+    "tools": [
+      "salary-certificate-generator-pakistan",
+      "appointment-letter-generator-pakistan",
+      "resignation-letter-generator-pakistan"
+    ],
+    "blogs": [],
+    "services": [
+      {
+        "href": "/payroll-hr-outsourcing-pakistan/",
+        "label": "Payroll and HR outsourcing"
+      }
+    ]
+  },
+  "disclaimer": "This tool only lays out the details you type. It is a sample format, not legal advice, and it does not check your employment terms against the law. Have important documents reviewed by a qualified adviser."
+}
