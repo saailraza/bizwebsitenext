@@ -1,0 +1,31 @@
+{
+  "slug": "payment-voucher-vs-receipt-voucher-with-entries",
+  "title": "Payment Voucher vs Receipt Voucher with Entries",
+  "description": "What a payment voucher and a receipt voucher are, when to use each, and the simple accounting entries behind them, with worked examples.",
+  "category": "Accounting & Technology",
+  "date": "2026-11-03",
+  "lead": "What a payment voucher and a receipt voucher are, when to use each, and the simple accounting entries behind them, with worked examples.",
+  "body": "<p>A voucher is an internal record of one money movement. It says what was paid or received, why, how, and who approved it. Good vouchers make bookkeeping and audits much easier. This is general accounting practice, so your own policy and your auditor's advice come first.</p>\n<h2>Payment voucher</h2>\n<p>Made when money leaves the business: cash, cheque or bank transfer. It records the payee, the amount, the reason, the account it is charged to, who prepared it and who approved it. The supplier's bill or other proof is attached.</p>\n<p><strong>Example:</strong> You pay Rs. 20,000 office rent in cash.</p>\n<ul><li>Debit Rent expense Rs. 20,000.</li><li>Credit Cash Rs. 20,000.</li></ul>\n<h2>Receipt voucher</h2>\n<p>Made when money comes in. It records who paid, how much, for what, and in which form. A copy goes to the payer as proof.</p>\n<p><strong>Example:</strong> A customer pays Rs. 50,000 by bank transfer against an earlier invoice.</p>\n<ul><li>Debit Bank Rs. 50,000.</li><li>Credit Accounts receivable Rs. 50,000.</li></ul>\n<h2>Which to use</h2>\n<ul><li>Money out of the business: payment voucher.</li><li>Money into the business: receipt voucher.</li><li>Transfers between your own cash and bank accounts, and adjustments: a journal voucher, which records the debit and credit without money changing hands.</li></ul>\n<h2>Good habits</h2>\n<ul><li>Number every voucher in one running series per type.</li><li>Have one person prepare and another approve.</li><li>Attach the bill, invoice or contract.</li><li>Write a clear reason, not just \"payment\".</li><li>File them by month so they can be found in minutes.</li><li>Never reuse or overwrite a voucher number. Cancel it and issue a new one.</li></ul>\n<h2>Vouchers and tax</h2>\n<p>Some payments need tax withheld before you pay. Whether yours do, and at what rate, depends on current rules. See our guide to <a href=\"/blog/withholding-tax-in-pakistan-explained/\">withholding tax in Pakistan</a> and ask your adviser.</p>\n<p>Our free <a href=\"/desk/documents/payment-receipt-voucher-maker-pakistan/\">Payment and Receipt Voucher Maker</a> prepares either voucher with the amount in words, ready to print.</p>",
+  "tags": "#Voucher #PaymentVoucher #ReceiptVoucher #Bookkeeping #Accounting",
+  "related": [
+    {
+      "href": "/desk/documents/payment-receipt-voucher-maker-pakistan/",
+      "cat": "Tool",
+      "title": "Payment & Receipt Voucher Maker",
+      "desc": "Make a numbered voucher with the amount in words."
+    },
+    {
+      "href": "/desk/documents/payment-receipt-generator-pakistan/",
+      "cat": "Tool",
+      "title": "Payment Receipt Generator",
+      "desc": "Give customers proof of payment."
+    },
+    {
+      "href": "/accounting-bookkeeping-services-pakistan/",
+      "cat": "Service",
+      "title": "Accounting & Bookkeeping",
+      "desc": "Monthly books, vouchers and payroll records done properly."
+    }
+  ],
+  "published": true
+}

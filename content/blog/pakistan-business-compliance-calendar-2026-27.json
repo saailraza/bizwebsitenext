@@ -1,0 +1,31 @@
+{
+  "slug": "pakistan-business-compliance-calendar-2026-27",
+  "title": "Pakistan Business Compliance Calendar 2026-27",
+  "description": "A month-by-month guide to the main FBR and SECP dates from November 2026 to October 2027, with notes on extensions and where sources differ.",
+  "category": "Pakistan Business",
+  "date": "2026-11-03",
+  "lead": "A month-by-month guide to the main FBR and SECP dates from November 2026 to October 2027, with notes on extensions and where sources differ.",
+  "body": "<p>This calendar covers the main federal dates for the 12 months from November 2026. We checked the underlying rules on 3 November 2026. FBR changes dates by notification, and provincial sales tax authorities have their own dates that are not listed here. Always confirm before you rely on a date.</p>\n<h2>Every month</h2>\n<ul><li>10th: sales tax Annexure-C.</li><li>15th: sales tax payment, and the monthly withholding tax statement.</li><li>18th: sales tax return, e-filed.</li></ul>\n<p>These apply to the month after the tax period. Special sectors follow special dates.</p>\n<h2>Income tax</h2>\n<ul><li><strong>31 December 2026:</strong> income tax return for companies with a 30 June year-end (tax year 2026).</li><li><strong>30 September 2027:</strong> income tax return for individuals and AOPs (tax year 2027).</li></ul>\n<p>For tax year 2026, FBR moved the individuals and AOPs date from 30 September to 31 October 2026. Extensions can happen again, so watch for FBR notices.</p>\n<h2>Advance tax</h2>\n<p>FBR's calendar shows the 15th of September, December, March and June for individuals and AOPs. In this window that means <strong>15 December 2026, 15 March 2027, 15 June 2027 and 15 September 2027</strong>. Sources disagree on company dates, with some giving the 25th, so companies should pay by the earlier date and confirm with their adviser.</p>\n<h2>SECP: depends on your year-end</h2>\n<p>These dates move with your financial year and your AGM, so there is no single date. Under the Companies Act, 2017 as described by two law-firm guides:</p>\n<ul><li>AGM within 120 days of year-end, extendable by up to 30 days. A company with a 31 December 2026 year-end must hold it by 30 April 2027.</li><li>Annual return within 30 days of the AGM.</li><li>A copy of the accounts within 15 days of the AGM.</li><li>Changes in directors or officers reported within 15 days.</li></ul>\n<p>Our guide to <a href=\"/blog/secp-annual-compliance-for-a-private-limited-company-in-pakistan/\">SECP annual compliance</a> explains each step.</p>\n<h2>If a date falls on a weekend</h2>\n<p>Do not assume it moves. Check the FBR notice or file a day early.</p>\n<h2>Not included</h2>\n<p>Provincial sales tax on services (PRA, SRB, KPRA, BRA), property and other local taxes, and sector-specific filings. Ask your adviser for your own list.</p>\n<h2>Get your own dates</h2>\n<p>Use our free <a href=\"/desk/compliance/pakistan-compliance-calendar/\">Pakistan Compliance Calendar</a>. Enter your year-end and AGM date and it builds your dates, shows known extensions and exports to Excel or your phone calendar. The <a href=\"/desk/compliance/fbr-due-dates-pakistan/\">FBR Due Dates Calendar</a> covers the tax dates alone. For the basics, read <a href=\"/blog/fbr-due-dates-in-pakistan-income-tax-sales-tax-and-withholding/\">FBR due dates in Pakistan</a>.</p>\n<p>Sources: <a href=\"https://www.fbr.gov.pk/categ/income-tax-due-dates/51149/40846/81148\" rel=\"noopener\" target=\"_blank\">FBR income tax due dates</a>, <a href=\"https://fbr.gov.pk/sales-tax-due-dates/51148/101162\" rel=\"noopener\" target=\"_blank\">FBR sales tax due dates</a>, <a href=\"https://www.fbr.gov.pk/DisplayDocs/158\" rel=\"noopener\" target=\"_blank\">FBR advance tax calendar</a>, <a href=\"https://www.dawn.com/news/2037394\" rel=\"noopener\" target=\"_blank\">Dawn on the 31 October 2026 extension</a>, <a href=\"https://legumlawfirm.co/updates/2026/annual-company-compliance-pakistan-agm-audit-returns/\" rel=\"noopener\" target=\"_blank\">Legum Law Firm</a> and <a href=\"https://lex-form.com/blog/secp-annual-compliance-private-limited-company-pakistan-2026.html\" rel=\"noopener\" target=\"_blank\">Lex-Form</a>.</p>",
+  "tags": "#ComplianceCalendar #FBR #SECP #DueDates #Pakistan",
+  "related": [
+    {
+      "href": "/desk/compliance/pakistan-compliance-calendar/",
+      "cat": "Tool",
+      "title": "Pakistan Compliance Calendar",
+      "desc": "Your FBR and SECP dates in one list."
+    },
+    {
+      "href": "/desk/compliance/fbr-due-dates-pakistan/",
+      "cat": "Tool",
+      "title": "FBR Due Dates Calendar",
+      "desc": "Tax dates for the next 6 to 18 months."
+    },
+    {
+      "href": "/tax-consultant-pakistan/",
+      "cat": "Service",
+      "title": "Tax Consultant",
+      "desc": "FBR filing, sales tax and withholding support."
+    }
+  ],
+  "published": true
+}

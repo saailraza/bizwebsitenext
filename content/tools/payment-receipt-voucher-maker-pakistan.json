@@ -43,7 +43,9 @@
       "cash-memo-maker-pakistan",
       "purchase-order-generator-pakistan"
     ],
-    "blogs": [],
+    "blogs": [
+      "payment-voucher-vs-receipt-voucher-with-entries"
+    ],
     "services": [
       {
         "href": "/accounting-bookkeeping-services-pakistan/",

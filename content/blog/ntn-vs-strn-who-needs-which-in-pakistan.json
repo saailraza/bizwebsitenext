@@ -1,0 +1,31 @@
+{
+  "slug": "ntn-vs-strn-who-needs-which-in-pakistan",
+  "title": "NTN vs STRN: Who Needs Which in Pakistan",
+  "description": "NTN is your income tax number and STRN is your sales tax number. How they differ, who needs which, and why you usually get the NTN first.",
+  "category": "Pakistan Taxation",
+  "date": "2026-11-03",
+  "lead": "NTN is your income tax number and STRN is your sales tax number. How they differ, who needs which, and why you usually get the NTN first.",
+  "body": "<p>Many business owners mix up the NTN and the STRN. They are two different registrations for two different taxes. This guide uses published guides we checked on 3 November 2026. Registration rules change, so confirm with FBR or your adviser before you act.</p>\n<h2>NTN: your income tax number</h2>\n<p>The National Tax Number identifies you for income tax. FBR issues it through its IRIS portal. Individuals earning income, business owners, freelancers and companies use one to file returns and to appear as a filer. See our guide to <a href=\"/blog/ntn-registration-and-active-taxpayer-list-pakistan/\">NTN registration and the Active Taxpayer List</a>.</p>\n<h2>STRN: your sales tax number</h2>\n<p>The Sales Tax Registration Number comes with registration under the Sales Tax Act, 1990. A registered business can charge sales tax on its taxable supplies, claim input tax and must file monthly sales tax returns. Guides list manufacturers, importers, wholesalers, retailers and exporters among those who register. Whether a particular business must register depends on its activity, and the turnover test and other conditions change. Ask your adviser.</p>\n<h2>How they fit together</h2>\n<ul><li>NTN is for income tax. STRN is for sales tax.</li><li>Guides say you need an NTN before you can register for sales tax. A business can have an NTN without an STRN.</li><li>Both are separate from SECP registration, which is about the legal existence of a company.</li></ul>\n<h2>Goods and services</h2>\n<p>The federal Sales Tax Act mainly covers goods. Sales tax on many services is collected by provincial authorities (PRA, SRB, KPRA and BRA), with their own registration. A services business may therefore need a provincial registration, not a federal STRN. Our guide to <a href=\"/blog/sales-tax-pakistan-fbr-pra-srb-guide/\">sales tax in Pakistan</a> explains the split.</p>\n<h2>Why it matters on your invoices</h2>\n<p>A sales tax invoice must show the registration numbers of the supplier and the recipient. See <a href=\"/blog/sales-tax-invoice-in-pakistan-what-it-must-contain/\">what a sales tax invoice must contain</a>.</p>\n<h2>Quick check</h2>\n<ul><li>Do you earn income in Pakistan? You need an NTN.</li><li>Do you supply taxable goods? Ask if you must register for sales tax.</li><li>Do you supply services? Check your province's authority.</li></ul>\n<p>Need help registering? See our <a href=\"/tax-consultant-pakistan/\">tax consultant</a> service.</p>\n<p>Sources: <a href=\"https://www.ict.edu.pk/blogs/difference-atl-ntn-strn-secp-pakistan-2026\" rel=\"noopener\" target=\"_blank\">ICT Pakistan, ATL, NTN, STRN and SECP registration</a> and <a href=\"https://www.startup.pk/how-to-register-for-sales-tax-in-pakistan-2025-provincial-step-by-step-guide-for-businesses/\" rel=\"noopener\" target=\"_blank\">startup.pk, sales tax registration guide</a>.</p>",
+  "tags": "#NTN #STRN #SalesTax #IncomeTax #FBR #Pakistan",
+  "related": [
+    {
+      "href": "/desk/documents/sales-tax-invoice-generator-pakistan/",
+      "cat": "Tool",
+      "title": "Sales Tax Invoice Generator",
+      "desc": "Show supplier and buyer registration numbers."
+    },
+    {
+      "href": "/tax-consultant-pakistan/",
+      "cat": "Service",
+      "title": "Tax Consultant",
+      "desc": "FBR filing, sales tax and withholding support."
+    },
+    {
+      "href": "/company-registration-pakistan/",
+      "cat": "Service",
+      "title": "Company Registration",
+      "desc": "SECP, NTN and sales tax set up for your company."
+    }
+  ],
+  "published": true
+}

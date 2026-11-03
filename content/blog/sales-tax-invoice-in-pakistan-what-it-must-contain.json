@@ -1,0 +1,31 @@
+{
+  "slug": "sales-tax-invoice-in-pakistan-what-it-must-contain",
+  "title": "Sales Tax Invoice in Pakistan: What It Must Contain",
+  "description": "The particulars a sales tax invoice must show under section 23 of the Sales Tax Act, 1990, and the invoice mistakes that cause trouble.",
+  "category": "Pakistan Taxation",
+  "date": "2026-11-03",
+  "lead": "The particulars a sales tax invoice must show under section 23 of the Sales Tax Act, 1990, and the invoice mistakes that cause trouble.",
+  "body": "<p>An invoice is more than a bill. For a sales tax registered business it is the document that supports the tax you charge and the tax your customer may claim. This guide lists what section 23(1) of the Sales Tax Act, 1990 asks for. We checked it on 3 November 2026 against a published copy of the section. Rules change by notification, so confirm with your adviser before you rely on it.</p>\n<h2>Who issues a tax invoice</h2>\n<p>A registered person making a taxable supply issues one at the time of supply of the goods. Section 23(2) also allows a person paying retail tax to issue invoices and bars anyone else from doing so. In other words, an unregistered business should not show sales tax on its bills.</p>\n<h2>What section 23(1) lists</h2>\n<ul><li>Name, address and registration number of the supplier.</li><li>Name, address and registration number of the recipient.</li><li>Date of issue.</li><li>Description and quantity of goods.</li><li>Value exclusive of tax.</li><li>Amount of sales tax.</li><li>Value inclusive of tax.</li></ul>\n<p>Most businesses also number their invoices in one running series, so every invoice can be found and none is missing. That is good practice, and our free tool includes it, but check whether your sector has its own rules.</p>\n<h2>Invoice, quotation and proforma invoice</h2>\n<ul><li><strong>Quotation:</strong> an offer of a price before any sale. The customer has not agreed yet.</li><li><strong>Proforma invoice:</strong> a preview of the invoice, often used for advance payment, customs or a bank. It is not the tax invoice and the sale has not happened.</li><li><strong>Tax invoice:</strong> issued when the supply is made. This is the document that carries the sales tax.</li></ul>\n<h2>Common mistakes</h2>\n<ul><li>Leaving out the buyer's registration number.</li><li>Showing only the total, not the value before tax and the tax separately.</li><li>Vague descriptions such as \"goods\" or \"services\" with no quantity.</li><li>Editing an invoice after it is issued instead of issuing a credit or debit note.</li><li>Charging sales tax when you are not registered.</li></ul>\n<h2>Services and provincial tax</h2>\n<p>Section 23 is a federal rule. Sales tax on many services is collected by provincial authorities, which have their own invoice requirements. Check the authority that applies to you.</p>\n<h2>Make one now</h2>\n<p>Our free <a href=\"/desk/documents/sales-tax-invoice-generator-pakistan/\">Sales Tax Invoice Generator</a> shows a checklist against the section 23(1) particulars as you fill it in. It helps you spot missing items. It does not make an invoice compliant by itself, because compliance depends on your registration and your supply.</p>\n<p>Sources: <a href=\"https://pkrevenue.com/sales-tax-act-1990-requirement-of-issuing-tax-invoice/\" rel=\"noopener\" target=\"_blank\">pkrevenue.com, section 23 of the Sales Tax Act, 1990</a>.</p>",
+  "tags": "#SalesTaxInvoice #FBR #SalesTax #Invoice #Pakistan",
+  "related": [
+    {
+      "href": "/desk/documents/sales-tax-invoice-generator-pakistan/",
+      "cat": "Tool",
+      "title": "Sales Tax Invoice Generator",
+      "desc": "Make an invoice with a section 23(1) checklist."
+    },
+    {
+      "href": "/desk/documents/quotation-generator-pakistan/",
+      "cat": "Tool",
+      "title": "Quotation Generator",
+      "desc": "Send a clear price offer."
+    },
+    {
+      "href": "/tax-consultant-pakistan/",
+      "cat": "Service",
+      "title": "Tax Consultant",
+      "desc": "FBR filing, sales tax and withholding support."
+    }
+  ],
+  "published": true
+}
