@@ -1,0 +1,62 @@
+{
+  "slug": "recipe-costing-food-cost-calculator-pakistan",
+  "desk": "industry",
+  "component": "recipe",
+  "name": "Recipe Costing and Food Cost Calculator",
+  "h1": "Recipe Costing and Food Cost Calculator",
+  "title": "Recipe Costing and Food Cost Calculator for Restaurants (Free)",
+  "description": "Add ingredients, waste and portions to see the cost per portion, food cost percentage and gross profit of any dish. Free, runs in your browser.",
+  "updated": "2026-11-03",
+  "lead": "List the ingredients of a dish and see exactly what one portion costs you.",
+  "profile": false,
+  "intro": [
+    "A dish can look profitable and still lose money because the cost of ingredients, trimming and waste adds up. Recipe costing shows what one portion really costs.",
+    "Enter the quantity of each ingredient and its price per unit from your own supplier bills. Add an allowance for waste and the number of portions the recipe makes. Add your menu price to see the food cost percentage. Nothing is uploaded."
+  ],
+  "how": [
+    "Ingredient cost = quantity used x price per unit.",
+    "Recipe cost = sum of ingredient costs x (1 + waste %).",
+    "Cost per portion = recipe cost / portions.",
+    "Food cost % = cost per portion / menu price."
+  ],
+  "example": "A recipe uses 0.5 kg of meat at Rs. 800 per kg (Rs. 400) and 2 kg of other items at Rs. 100 (Rs. 200). With 10% waste the cost is Rs. 660. It makes 4 portions, so Rs. 165 each. At a menu price of Rs. 400 the food cost is 41.3%.",
+  "mistakes": [
+    "Using old supplier prices.",
+    "Forgetting trimming, cooking loss and spoilage.",
+    "Leaving out oil, spices and garnish.",
+    "Mixing units, such as grams with a price per kilogram."
+  ],
+  "faq": [
+    {
+      "q": "What is a good food cost percentage?",
+      "a": "It depends on the type of restaurant and your other costs. Set your own target with the Menu Pricing tool."
+    },
+    {
+      "q": "Does it include labour?",
+      "a": "No. Only ingredients. Use the Restaurant Profit tool for the whole picture."
+    },
+    {
+      "q": "Is my data saved?",
+      "a": "No. Print or download the result."
+    }
+  ],
+  "related": {
+    "tools": [
+      "menu-pricing-calculator-pakistan",
+      "restaurant-profit-calculator-pakistan",
+      "staff-cost-calculator-pakistan"
+    ],
+    "blogs": [],
+    "services": [
+      {
+        "href": "/accounting-bookkeeping-services-pakistan/",
+        "label": "Accounting and bookkeeping services"
+      },
+      {
+        "href": "/business-consultants-islamabad/",
+        "label": "Business consultants in Islamabad"
+      }
+    ]
+  },
+  "disclaimer": "This tool does arithmetic on the figures you enter. It is not financial, tax or investment advice, and results are only as good as the numbers you put in. Talk to a qualified adviser before big decisions."
+}

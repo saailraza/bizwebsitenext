@@ -1,0 +1,61 @@
+{
+  "slug": "menu-pricing-calculator-pakistan",
+  "desk": "industry",
+  "component": "menu",
+  "name": "Menu Pricing Calculator",
+  "h1": "Menu Pricing Calculator",
+  "title": "Menu Pricing Calculator: Price Dishes for a Target Food Cost (Free)",
+  "description": "Set a target food cost percentage and price every dish on your menu. See which current prices are above target. Free, runs in your browser.",
+  "updated": "2026-11-03",
+  "lead": "Enter the cost of each dish and your target food cost to get a suggested menu price.",
+  "profile": false,
+  "intro": [
+    "Pricing a menu by guesswork or by copying the restaurant next door can leave some dishes with thin margins. A target food cost percentage gives every dish the same rule.",
+    "You choose the target, and the tool suggests a price for each dish. If you enter your current prices it also shows the food cost on each and flags dishes above your target. Add sales tax or service charge separately. Nothing is uploaded."
+  ],
+  "how": [
+    "Suggested price = cost per portion / (target food cost % / 100).",
+    "Current food cost % = cost per portion / current price.",
+    "A dish is flagged when its food cost is above your target."
+  ],
+  "example": "A dish costs Rs. 300 to make and you aim for 30% food cost. Suggested price is 300 / 0.30 = Rs. 1,000. A dish costing Rs. 400 needs Rs. 1,333 to meet the same target.",
+  "mistakes": [
+    "Pricing from the target alone without checking what customers will pay.",
+    "Using a cost that excludes waste.",
+    "Adding tax to the cost instead of the price.",
+    "Never updating prices when ingredient costs rise."
+  ],
+  "faq": [
+    {
+      "q": "What target should I use?",
+      "a": "There is no single figure. It depends on your concept and your other costs. Test a few targets against your monthly results."
+    },
+    {
+      "q": "Why is my suggested price odd?",
+      "a": "Round it to a price your customers expect, then check the food cost again."
+    },
+    {
+      "q": "Is my data saved?",
+      "a": "No."
+    }
+  ],
+  "related": {
+    "tools": [
+      "recipe-costing-food-cost-calculator-pakistan",
+      "restaurant-profit-calculator-pakistan",
+      "selling-price-calculator-margin-markup-pakistan"
+    ],
+    "blogs": [],
+    "services": [
+      {
+        "href": "/accounting-bookkeeping-services-pakistan/",
+        "label": "Accounting and bookkeeping services"
+      },
+      {
+        "href": "/business-consultants-islamabad/",
+        "label": "Business consultants in Islamabad"
+      }
+    ]
+  },
+  "disclaimer": "This tool does arithmetic on the figures you enter. It is not financial, tax or investment advice, and results are only as good as the numbers you put in. Talk to a qualified adviser before big decisions."
+}

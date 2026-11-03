@@ -27,6 +27,10 @@ const TOOLS = {
   rental: dynamic(() => import('./tools/RentalYield'), { ssr: false, loading }),
   freelance: dynamic(() => import('./tools/FreelanceRate'), { ssr: false, loading }),
   seller: dynamic(() => import('./tools/SellerProfit'), { ssr: false, loading }),
+  recipe: dynamic(() => import('./tools/RecipeCost'), { ssr: false, loading }),
+  menu: dynamic(() => import('./tools/MenuPricing'), { ssr: false, loading }),
+  rprofit: dynamic(() => import('./tools/RestaurantProfit'), { ssr: false, loading }),
+  staffcost: dynamic(() => import('./tools/StaffCost'), { ssr: false, loading }),
   cashclose: dynamic(() => import('./tools/CashClosing'), { ssr: false, loading }),
   marla: dynamic(() => import('./tools/MarlaConverter'), { ssr: false, loading }),
 };

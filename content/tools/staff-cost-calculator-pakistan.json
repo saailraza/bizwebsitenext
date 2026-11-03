@@ -1,0 +1,62 @@
+{
+  "slug": "staff-cost-calculator-pakistan",
+  "desk": "industry",
+  "component": "staffcost",
+  "name": "Restaurant Staff Cost Calculator",
+  "h1": "Restaurant Staff Cost Calculator",
+  "title": "Restaurant Staff Cost Calculator: Monthly Wage Bill (Free)",
+  "description": "Add roles, numbers and pay to see the monthly and yearly staff cost, cost per person and staff cost as a share of sales. Free.",
+  "updated": "2026-11-03",
+  "lead": "List your roles and pay to see the full monthly cost of your team.",
+  "profile": false,
+  "intro": [
+    "Staff are usually the biggest cost after food. This tool adds pay by role, then a percentage you choose for extras such as meals or bonuses, to give one monthly figure.",
+    "If you enter monthly sales it also shows staff cost as a share of sales. Overtime and statutory contributions are not calculated, so include them in your pay or extra percentage where they apply. Nothing is uploaded."
+  ],
+  "how": [
+    "Pay for a role = number of staff x monthly pay each.",
+    "Extra = total pay x extra %.",
+    "Total = pay + extra. Yearly = total x 12.",
+    "Staff cost % = total / monthly sales."
+  ],
+  "example": "2 chefs at Rs. 50,000 and 4 waiters at Rs. 30,000 cost Rs. 220,000. With 10% extra the total is Rs. 242,000 a month, 24.2% of Rs. 1,000,000 sales.",
+  "mistakes": [
+    "Forgetting part-time and weekend staff.",
+    "Leaving out meals, transport and bonuses.",
+    "Not planning for leave and replacements.",
+    "Judging staff cost on a single slow month."
+  ],
+  "faq": [
+    {
+      "q": "Does it calculate overtime or EOBI?",
+      "a": "No. Add them to the pay or the extra percentage using the rules that apply to you."
+    },
+    {
+      "q": "What is a good staff cost percentage?",
+      "a": "It depends on your type of restaurant. Compare it month to month and with your prime cost."
+    },
+    {
+      "q": "Is my data saved?",
+      "a": "No."
+    }
+  ],
+  "related": {
+    "tools": [
+      "restaurant-profit-calculator-pakistan",
+      "salary-slip-generator-pakistan",
+      "budget-planner-pakistan"
+    ],
+    "blogs": [],
+    "services": [
+      {
+        "href": "/accounting-bookkeeping-services-pakistan/",
+        "label": "Accounting and bookkeeping services"
+      },
+      {
+        "href": "/business-consultants-islamabad/",
+        "label": "Business consultants in Islamabad"
+      }
+    ]
+  },
+  "disclaimer": "This tool does arithmetic on the figures you enter. It is not financial, tax or investment advice, and results are only as good as the numbers you put in. Talk to a qualified adviser before big decisions."
+}

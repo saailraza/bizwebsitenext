@@ -1,0 +1,62 @@
+{
+  "slug": "restaurant-profit-calculator-pakistan",
+  "desk": "industry",
+  "component": "rprofit",
+  "name": "Restaurant Profit Calculator",
+  "h1": "Restaurant Profit Calculator",
+  "title": "Restaurant Profit Calculator: Margin, Prime Cost and Break-even (Free)",
+  "description": "Enter a month of sales and costs to see profit, food cost, staff cost, prime cost and break-even sales. Free, runs in your browser.",
+  "updated": "2026-11-03",
+  "lead": "See how much a month of trading really earned and how much you must sell to break even.",
+  "profile": false,
+  "intro": [
+    "A busy restaurant can still lose money. This tool takes one month of sales and your main costs and shows profit, food cost %, staff cost % and prime cost, the food and staff costs together.",
+    "Break-even sales shows how much you need to sell for the month to cover costs. It treats food as a cost that rises with sales and the others as fixed. Nothing is uploaded."
+  ],
+  "how": [
+    "Profit = sales - food - staff - rent - utilities - other costs.",
+    "Food cost % = food / sales. Staff cost % = staff / sales.",
+    "Prime cost = food + staff.",
+    "Break-even sales = fixed costs / (1 - food cost %)."
+  ],
+  "example": "Sales Rs. 1,000,000. Food 350,000, staff 250,000, rent 100,000, utilities 50,000, other 50,000. Profit is Rs. 200,000, a 20% margin. Fixed costs are 450,000 and food is 35% of sales, so break-even is 450,000 / 0.65 = Rs. 692,308.",
+  "mistakes": [
+    "Using food purchases instead of food used.",
+    "Leaving out the owner's own pay.",
+    "Ignoring repairs and card or delivery fees.",
+    "Comparing months with very different opening days."
+  ],
+  "faq": [
+    {
+      "q": "What counts as food cost?",
+      "a": "Food and drink used in the month: opening stock plus purchases minus closing stock."
+    },
+    {
+      "q": "Does it include tax?",
+      "a": "No. Income tax and loan repayments are not included."
+    },
+    {
+      "q": "Is my data saved?",
+      "a": "No."
+    }
+  ],
+  "related": {
+    "tools": [
+      "staff-cost-calculator-pakistan",
+      "recipe-costing-food-cost-calculator-pakistan",
+      "budget-planner-pakistan"
+    ],
+    "blogs": [],
+    "services": [
+      {
+        "href": "/accounting-bookkeeping-services-pakistan/",
+        "label": "Accounting and bookkeeping services"
+      },
+      {
+        "href": "/business-consultants-islamabad/",
+        "label": "Business consultants in Islamabad"
+      }
+    ]
+  },
+  "disclaimer": "This tool does arithmetic on the figures you enter. It is not financial, tax or investment advice, and results are only as good as the numbers you put in. Talk to a qualified adviser before big decisions."
+}
