@@ -21,6 +21,13 @@ const TOOLS = {
   wacc: dynamic(() => import('./tools/Wacc'), { ssr: false, loading }),
   health: dynamic(() => import('./tools/HealthCheck'), { ssr: false, loading }),
   startup: dynamic(() => import('./tools/StartupCost'), { ssr: false, loading }),
+  pricing: dynamic(() => import('./tools/SellingPrice'), { ssr: false, loading }),
+  discount: dynamic(() => import('./tools/DiscountCalc'), { ssr: false, loading }),
+  reorder: dynamic(() => import('./tools/StockReorder'), { ssr: false, loading }),
+  rental: dynamic(() => import('./tools/RentalYield'), { ssr: false, loading }),
+  freelance: dynamic(() => import('./tools/FreelanceRate'), { ssr: false, loading }),
+  seller: dynamic(() => import('./tools/SellerProfit'), { ssr: false, loading }),
+  cashclose: dynamic(() => import('./tools/CashClosing'), { ssr: false, loading }),
   marla: dynamic(() => import('./tools/MarlaConverter'), { ssr: false, loading }),
 };
 

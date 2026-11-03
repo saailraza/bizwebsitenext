@@ -1,0 +1,67 @@
+{
+  "slug": "online-seller-profit-calculator-pakistan",
+  "desk": "industry",
+  "component": "seller",
+  "name": "Online Seller Profit Calculator",
+  "h1": "Online Seller Profit Calculator",
+  "title": "Online Seller Profit Calculator for Daraz, Shopify and Marketplaces",
+  "description": "Work out profit per order after marketplace fees, shipping, ads and returns, and find the lowest price that breaks even. Enter your own fees. Free.",
+  "updated": "2026-11-02",
+  "lead": "Enter your price, cost and the fees on your seller account to see what you really keep from each order.",
+  "profile": false,
+  "intro": [
+    "Selling online is easy to get wrong because the fees come in layers: a commission, a payment fee, shipping, advertising and the cost of returns. A product that looks profitable at the listing price can lose money after these.",
+    "This calculator works for any marketplace or your own store, including Daraz and Shopify. It has no preset fees, because they change and differ by category and seller. Copy the current figures from your seller account. Calculations run in your browser and nothing is uploaded."
+  ],
+  "how": [
+    "Percentage fees = selling price x (commission % + payment fee %).",
+    "Cost of returns = share of orders returned x cost of each return.",
+    "Profit per order = selling price - product cost - percentage fees - fixed fee - shipping - advertising - packaging and other - cost of returns.",
+    "Break-even price = (product cost + fixed costs + returns cost) / (1 - percentage fees)."
+  ],
+  "example": "Selling price Rs. 2,000 and product cost Rs. 1,000. Fees are 10% commission and 2% payment, so Rs. 240. Fixed fee Rs. 50, shipping Rs. 150, ads Rs. 100. 10% of orders return at Rs. 300 each, so Rs. 30 per order. Profit is 2,000 - 1,000 - 240 - 300 - 30 = Rs. 430 per order, a 21.5% margin.",
+  "mistakes": [
+    "Forgetting the cost of returns and cancelled orders.",
+    "Using last year's fees. Check your seller account.",
+    "Leaving out advertising per order.",
+    "Counting the marketplace payout as profit before the product cost.",
+    "Not including tax on your profit, which this tool does not calculate."
+  ],
+  "faq": [
+    {
+      "q": "What fees should I enter?",
+      "a": "The ones shown in your seller account for your category: commission, payment fee, any fixed fee per order, and what you pay for shipping."
+    },
+    {
+      "q": "Does it know Daraz or Shopify fees?",
+      "a": "No. Fees change, so you enter your own. That keeps the result correct for your account."
+    },
+    {
+      "q": "What is the break-even price?",
+      "a": "The lowest selling price at which one order makes zero profit, using the fees you entered."
+    },
+    {
+      "q": "Is my data saved?",
+      "a": "No. Print the page or download the result."
+    }
+  ],
+  "related": {
+    "tools": [
+      "selling-price-calculator-margin-markup-pakistan",
+      "discount-calculator-pakistan",
+      "stock-reorder-point-calculator-pakistan"
+    ],
+    "blogs": [],
+    "services": [
+      {
+        "href": "/accounting-bookkeeping-services-pakistan/",
+        "label": "Accounting and bookkeeping services"
+      },
+      {
+        "href": "/tax-consultant-pakistan/",
+        "label": "Tax consultant in Pakistan"
+      }
+    ]
+  },
+  "disclaimer": "This tool does arithmetic on the figures you enter. It is not financial, tax or investment advice, and results are only as good as the numbers you put in. Talk to a qualified adviser before big decisions."
+}

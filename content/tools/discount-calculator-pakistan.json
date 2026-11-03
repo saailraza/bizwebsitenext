@@ -1,0 +1,56 @@
+{
+  "slug": "discount-calculator-pakistan",
+  "desk": "industry",
+  "component": "discount",
+  "name": "Discount Calculator",
+  "h1": "Discount Calculator",
+  "title": "Discount Calculator: Sale Price and Savings (Free)",
+  "description": "Find the price after a discount, the amount saved and the total effect of two discounts in a row. Free, runs in your browser.",
+  "updated": "2026-11-02",
+  "lead": "Enter a price and a discount to see what you pay, what you save and the real total when discounts are stacked.",
+  "profile": false,
+  "intro": [
+    "A sale tag says 20% off, then the till takes another 10% off. That is not 30%. The second discount applies to the already reduced price.",
+    "Shops can use this to check what a promotion costs them. Buyers can use it to compare offers."
+  ],
+  "how": [
+    "Price after discount = price x (1 - discount %).",
+    "With two discounts, the second is taken from the reduced price.",
+    "Total discount % = (original - final) / original."
+  ],
+  "example": "Rs. 5,000 with 20% off is Rs. 4,000. A further 10% off gives Rs. 3,600. You save Rs. 1,400, which is 28% in total, not 30%.",
+  "mistakes": [
+    "Adding two discounts together.",
+    "Forgetting that a discount cuts your margin by more than the discount itself.",
+    "Comparing a discount on one item with a bundle deal on another."
+  ],
+  "faq": [
+    {
+      "q": "Why is the total less than the two discounts added?",
+      "a": "The second discount applies to a smaller price."
+    },
+    {
+      "q": "How much can I discount and still profit?",
+      "a": "Check the margin first with the Selling Price Calculator."
+    },
+    {
+      "q": "Is my data saved?",
+      "a": "No."
+    }
+  ],
+  "related": {
+    "tools": [
+      "selling-price-calculator-margin-markup-pakistan",
+      "stock-reorder-point-calculator-pakistan",
+      "daily-cash-closing-sheet-pakistan"
+    ],
+    "blogs": [],
+    "services": [
+      {
+        "href": "/accounting-bookkeeping-services-pakistan/",
+        "label": "Accounting and bookkeeping services"
+      }
+    ]
+  },
+  "disclaimer": "This tool does arithmetic on the figures you enter. It is not financial, tax, legal or investment advice, and results are only as good as the numbers you put in. Talk to a qualified adviser before big decisions."
+}

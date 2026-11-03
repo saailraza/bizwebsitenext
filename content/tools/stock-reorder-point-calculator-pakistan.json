@@ -1,0 +1,61 @@
+{
+  "slug": "stock-reorder-point-calculator-pakistan",
+  "desk": "industry",
+  "component": "reorder",
+  "name": "Stock Reorder Calculator",
+  "h1": "Stock Reorder Calculator",
+  "title": "Stock Reorder Point Calculator for Shops (Free)",
+  "description": "Find the stock level at which to reorder, the cushion to hold and, optionally, the order size that keeps costs lowest. Free.",
+  "updated": "2026-11-02",
+  "lead": "Enter your daily sales and delivery time to see when to reorder so you do not run out.",
+  "profile": false,
+  "intro": [
+    "Running out of a fast seller loses sales. Over-ordering ties up cash. The reorder point is the stock level at which to place an order so new stock arrives just as the old runs low.",
+    "The optional order size uses the classic economic order quantity formula. It needs your own cost of placing an order and of holding a unit for a year, so it only appears when you fill those in."
+  ],
+  "how": [
+    "Reorder point = daily sales x (delivery days + cushion days).",
+    "Cushion stock = daily sales x cushion days.",
+    "Order size = square root of (2 x yearly demand x order cost / yearly holding cost per unit)."
+  ],
+  "example": "You sell 10 units a day, the supplier takes 5 days and you want 2 days of cushion. Reorder when stock reaches 10 x 7 = 70 units.",
+  "mistakes": [
+    "Using a best-week sales figure.",
+    "Ignoring supplier delays.",
+    "Using one cushion for fast and slow items alike.",
+    "Reordering by habit instead of by level."
+  ],
+  "faq": [
+    {
+      "q": "How many cushion days?",
+      "a": "There is no fixed rule. Use more for items that are hard to get or often late."
+    },
+    {
+      "q": "Does it handle seasonal items?",
+      "a": "Use sales for the season, not the year."
+    },
+    {
+      "q": "Is my data saved?",
+      "a": "No."
+    }
+  ],
+  "related": {
+    "tools": [
+      "selling-price-calculator-margin-markup-pakistan",
+      "inventory-valuation-fifo-weighted-average-pakistan",
+      "daily-cash-closing-sheet-pakistan"
+    ],
+    "blogs": [],
+    "services": [
+      {
+        "href": "/accounting-bookkeeping-services-pakistan/",
+        "label": "Accounting and bookkeeping services"
+      },
+      {
+        "href": "/business-consultants-islamabad/",
+        "label": "Business consultants in Islamabad"
+      }
+    ]
+  },
+  "disclaimer": "This tool does arithmetic on the figures you enter. It is not financial, tax, legal or investment advice, and results are only as good as the numbers you put in. Talk to a qualified adviser before big decisions."
+}

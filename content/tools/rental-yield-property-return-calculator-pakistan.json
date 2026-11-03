@@ -1,0 +1,67 @@
+{
+  "slug": "rental-yield-property-return-calculator-pakistan",
+  "desk": "industry",
+  "component": "rental",
+  "name": "Rental Yield and Property Return Calculator",
+  "h1": "Rental Yield and Property Return Calculator",
+  "title": "Rental Yield and Property Return Calculator Pakistan (Free)",
+  "description": "Calculate gross and net rental yield, payback years and the total return from rent and price rise on a property. Free, no sign-up.",
+  "updated": "2026-11-02",
+  "lead": "Enter the price, rent and costs to see what a property earns, before tax and loan interest.",
+  "profile": false,
+  "intro": [
+    "Rental yield compares the rent a property earns with what it cost. Gross yield uses the price only. Net yield uses rent actually collected, less the costs you pay, over everything you put in.",
+    "You can add a price rise and a holding period to see the total gain. The tool does not assume any growth rate or tax. Enter your own figures. Nothing is uploaded."
+  ],
+  "how": [
+    "Gross yield = monthly rent x 12 / price.",
+    "Net rent = rent x (12 - empty months) - yearly costs.",
+    "Net yield = net rent / (price + buying costs).",
+    "Years to earn back = (price + buying costs) / net rent.",
+    "Value after n years = price x (1 + rise %)^n. Total gain = value - money put in + net rent x n."
+  ],
+  "example": "Price Rs. 10,000,000, buying costs Rs. 500,000, rent Rs. 60,000 a month, 1 month empty, costs Rs. 50,000 a year. Gross yield is 7.2%. Net rent is 660,000 - 50,000 = Rs. 610,000, a net yield of 5.8%.",
+  "mistakes": [
+    "Forgetting buying costs and repairs.",
+    "Assuming the property is always rented.",
+    "Ignoring income tax on rent and loan interest.",
+    "Expecting past price rises to repeat."
+  ],
+  "faq": [
+    {
+      "q": "What is a good rental yield?",
+      "a": "It depends on the area and property type. Compare with other places you could put the money."
+    },
+    {
+      "q": "Does it include tax or a loan?",
+      "a": "No. Add those separately with your adviser."
+    },
+    {
+      "q": "Where can I convert plot sizes?",
+      "a": "Use the Marla, Kanal and Square Feet Converter."
+    },
+    {
+      "q": "Is my data saved?",
+      "a": "No."
+    }
+  ],
+  "related": {
+    "tools": [
+      "marla-kanal-square-feet-converter",
+      "selling-price-calculator-margin-markup-pakistan",
+      "business-valuation-estimator-pakistan"
+    ],
+    "blogs": [],
+    "services": [
+      {
+        "href": "/tax-consultant-pakistan/",
+        "label": "Tax consultant in Pakistan"
+      },
+      {
+        "href": "/business-consultants-islamabad/",
+        "label": "Business consultants in Islamabad"
+      }
+    ]
+  },
+  "disclaimer": "This tool does arithmetic on the figures you enter. It is not financial, tax, legal or investment advice, and results are only as good as the numbers you put in. Talk to a qualified adviser before big decisions."
+}

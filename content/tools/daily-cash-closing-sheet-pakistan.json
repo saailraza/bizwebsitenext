@@ -1,0 +1,61 @@
+{
+  "slug": "daily-cash-closing-sheet-pakistan",
+  "desk": "industry",
+  "component": "cashclose",
+  "name": "Daily Cash Closing Sheet",
+  "h1": "Daily Cash Closing Sheet",
+  "title": "Daily Cash Closing Sheet for Shops (Free, Printable)",
+  "description": "Count your drawer by note, compare it with what the books say and see any extra or short cash at closing time. Free and printable.",
+  "updated": "2026-11-02",
+  "lead": "Count the notes at closing time and see whether the drawer matches what it should hold.",
+  "profile": false,
+  "intro": [
+    "A daily cash count catches mistakes early. Cash that is short today is far easier to trace than cash that has been short for a month.",
+    "Enter your opening cash, cash sales, cash received on credit, cash paid out and cash taken away. The tool works out what should be in the drawer, then compares it with the notes you count. Note values are editable. Print or download the sheet for your records."
+  ],
+  "how": [
+    "Expected cash = opening + cash sales + cash received - cash paid out - cash taken away.",
+    "Counted cash = sum of (note value x number of notes) + coins and other.",
+    "Difference = counted - expected."
+  ],
+  "example": "Opening 20,000, cash sales 85,000, 5,000 received on credit, 12,000 paid out and 70,000 banked. Expected cash is 28,000. If you count 27,500, you are 500 short.",
+  "mistakes": [
+    "Not recording small payouts.",
+    "Mixing card or bank transfer sales into cash sales.",
+    "Counting once and not re-counting a difference.",
+    "Leaving the sheet unsigned and unfiled."
+  ],
+  "faq": [
+    {
+      "q": "Why is my count different?",
+      "a": "Check unrecorded payouts, wrong change, and sales entered on the wrong day."
+    },
+    {
+      "q": "Can I use other note values?",
+      "a": "Yes. The note values are editable."
+    },
+    {
+      "q": "Is my data saved?",
+      "a": "No. Print or download your sheet."
+    }
+  ],
+  "related": {
+    "tools": [
+      "selling-price-calculator-margin-markup-pakistan",
+      "discount-calculator-pakistan",
+      "stock-reorder-point-calculator-pakistan"
+    ],
+    "blogs": [],
+    "services": [
+      {
+        "href": "/accounting-bookkeeping-services-pakistan/",
+        "label": "Accounting and bookkeeping services"
+      },
+      {
+        "href": "/business-consultants-islamabad/",
+        "label": "Business consultants in Islamabad"
+      }
+    ]
+  },
+  "disclaimer": "This tool does arithmetic on the figures you enter. It is not financial, tax, legal or investment advice, and results are only as good as the numbers you put in. Talk to a qualified adviser before big decisions."
+}

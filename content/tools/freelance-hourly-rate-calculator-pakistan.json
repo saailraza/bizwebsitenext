@@ -1,0 +1,62 @@
+{
+  "slug": "freelance-hourly-rate-calculator-pakistan",
+  "desk": "industry",
+  "component": "freelance",
+  "name": "Freelance Hourly Rate Calculator",
+  "h1": "Freelance Hourly Rate Calculator",
+  "title": "Freelance Hourly Rate Calculator Pakistan (Free)",
+  "description": "Work out the hourly rate you need to charge from your target income, costs, tax set-aside and billable hours. Free, runs in your browser.",
+  "updated": "2026-11-02",
+  "lead": "Enter the income you want and the hours you can bill to see your hourly and daily rate.",
+  "profile": false,
+  "intro": [
+    "Freelancers often pick a rate by copying others. A better start is to work back from what you need: your income, your costs, tax and the hours you can really bill.",
+    "Most people cannot bill every working hour, because finding clients and sending invoices take time too. Enter only billable hours. You choose the tax set-aside, since your rate depends on your own situation. Nothing is uploaded."
+  ],
+  "how": [
+    "Needed per year = (take-home + monthly costs) x 12.",
+    "Earnings before tax = needed / (1 - tax set-aside %).",
+    "Hourly rate = earnings before tax / (billable hours a week x weeks worked).",
+    "Dollar rate = hourly rate / rupees per dollar, if you enter one."
+  ],
+  "example": "Take-home Rs. 150,000 and costs Rs. 30,000 a month need Rs. 2,160,000 a year. With 15% set aside for tax that is Rs. 2,541,176 of earnings. At 25 billable hours for 46 weeks (1,150 hours), the rate is about Rs. 2,210 an hour.",
+  "mistakes": [
+    "Counting all working hours as billable.",
+    "Leaving out software, internet and workspace costs.",
+    "Not setting money aside for tax.",
+    "Never raising rates."
+  ],
+  "faq": [
+    {
+      "q": "How much tax should I set aside?",
+      "a": "Ask a tax adviser. It depends on your income and how you are registered."
+    },
+    {
+      "q": "Should I charge per hour or per project?",
+      "a": "Use the hourly rate to price projects: estimate hours, then multiply."
+    },
+    {
+      "q": "Is my data saved?",
+      "a": "No."
+    }
+  ],
+  "related": {
+    "tools": [
+      "selling-price-calculator-margin-markup-pakistan",
+      "budget-planner-pakistan",
+      "startup-cost-estimator-pakistan"
+    ],
+    "blogs": [],
+    "services": [
+      {
+        "href": "/tax-consultant-pakistan/",
+        "label": "Tax consultant in Pakistan"
+      },
+      {
+        "href": "/accounting-bookkeeping-services-pakistan/",
+        "label": "Accounting and bookkeeping services"
+      }
+    ]
+  },
+  "disclaimer": "This tool does arithmetic on the figures you enter. It is not financial, tax, legal or investment advice, and results are only as good as the numbers you put in. Talk to a qualified adviser before big decisions."
+}

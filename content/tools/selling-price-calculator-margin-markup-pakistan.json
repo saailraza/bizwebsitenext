@@ -1,0 +1,66 @@
+{
+  "slug": "selling-price-calculator-margin-markup-pakistan",
+  "desk": "industry",
+  "component": "pricing",
+  "name": "Selling Price Calculator",
+  "h1": "Selling Price Calculator",
+  "title": "Selling Price Calculator: Margin and Markup (Free)",
+  "description": "Work out the selling price from your cost and the margin or markup you want, or check the margin on a price you already charge. Free.",
+  "updated": "2026-11-02",
+  "lead": "Enter your cost and the profit you want to see the price to charge, or check the margin on a price you already use.",
+  "profile": false,
+  "intro": [
+    "Many shopkeepers add a percentage to cost and call it profit. That is markup. Margin is profit as a share of the selling price. The two give different numbers for the same price, so mixing them up can leave you earning less than you planned.",
+    "This tool does both directions and can add sales tax if you charge it. You enter the tax rate yourself. Everything is calculated in your browser."
+  ],
+  "how": [
+    "Price from margin = cost / (1 - margin %).",
+    "Price from markup = cost x (1 + markup %).",
+    "Margin = (price - cost) / price. Markup = (price - cost) / cost.",
+    "Price with sales tax = price x (1 + tax %)."
+  ],
+  "example": "Cost Rs. 800. A 20% markup gives Rs. 960, which is a profit of Rs. 160 and a margin of 16.7%. To really earn a 20% margin, the price must be 800 / 0.8 = Rs. 1,000.",
+  "mistakes": [
+    "Treating markup as margin.",
+    "Forgetting delivery, packing or payment costs in the cost.",
+    "Pricing with no room for discounts.",
+    "Adding sales tax to cost instead of to the selling price."
+  ],
+  "faq": [
+    {
+      "q": "What is the difference between margin and markup?",
+      "a": "Markup is profit over cost. Margin is profit over selling price. Margin is always the smaller number."
+    },
+    {
+      "q": "Which should I use?",
+      "a": "Use the one you track in your accounts. Margin is what shows in profit reports."
+    },
+    {
+      "q": "Does it work out sales tax for me?",
+      "a": "It adds the rate you type. Check the right rate for your goods with your tax adviser."
+    },
+    {
+      "q": "Is my data saved?",
+      "a": "No."
+    }
+  ],
+  "related": {
+    "tools": [
+      "discount-calculator-pakistan",
+      "stock-reorder-point-calculator-pakistan",
+      "daily-cash-closing-sheet-pakistan"
+    ],
+    "blogs": [],
+    "services": [
+      {
+        "href": "/accounting-bookkeeping-services-pakistan/",
+        "label": "Accounting and bookkeeping services"
+      },
+      {
+        "href": "/business-consultants-islamabad/",
+        "label": "Business consultants in Islamabad"
+      }
+    ]
+  },
+  "disclaimer": "This tool does arithmetic on the figures you enter. It is not financial, tax, legal or investment advice, and results are only as good as the numbers you put in. Talk to a qualified adviser before big decisions."
+}
