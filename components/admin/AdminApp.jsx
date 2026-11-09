@@ -38,6 +38,8 @@ export default function AdminApp() {
   const [tab, setTab] = useState('blog');
   const [toast, setToast] = useState(null);
 
+  // stable, so a tab does not reload (and lose unsaved edits) every time a message appears
+  const signedOut = useCallback(() => setAuth('out'), []);
   const say = useCallback((text, bad) => {
     setToast({ text, bad });
     setTimeout(() => setToast(null), bad ? 6000 : 3500);
@@ -87,6 +89,8 @@ export default function AdminApp() {
             ['jobs', 'Jobs'],
             ['apps', 'Applications'],
             ['bot', 'BIZBOT'],
+            ['tools', 'Desk tools'],
+            ['rates', 'Rates and dates'],
             ['help', 'Help'],
           ].map(([k, l]) => (
             <button key={k} role="tab" aria-selected={tab === k} className={tab === k ? 'on' : ''} onClick={() => setTab(k)}>
@@ -96,10 +100,12 @@ export default function AdminApp() {
         </div>
       </div>
       <div className="adm-main">
-        {tab === 'blog' && <BlogTab say={say} onAuth={() => setAuth('out')} />}
-        {tab === 'jobs' && <JobsTab say={say} onAuth={() => setAuth('out')} />}
-        {tab === 'apps' && <AppsTab say={say} onAuth={() => setAuth('out')} />}
-        {tab === 'bot' && <BotTab say={say} onAuth={() => setAuth('out')} />}
+        {tab === 'blog' && <BlogTab say={say} onAuth={signedOut} />}
+        {tab === 'jobs' && <JobsTab say={say} onAuth={signedOut} />}
+        {tab === 'apps' && <AppsTab say={say} onAuth={signedOut} />}
+        {tab === 'bot' && <BotTab say={say} onAuth={signedOut} />}
+        {tab === 'tools' && <ToolsTab say={say} onAuth={signedOut} />}
+        {tab === 'rates' && <RatesTab say={say} onAuth={signedOut} />}
         {tab === 'help' && <Help storage={storage} />}
       </div>
       {toast && <div className={'toast' + (toast.bad ? ' bad' : '')} role="status">{toast.text}</div>}
@@ -677,7 +683,7 @@ function Help({ storage }) {
         <li>
           Every save is stored in your GitHub repository. Vercel notices the change and rebuilds the website, so changes appear about <b>one minute</b> after you press Save.
         </li>
-        <li>Blog posts, jobs, application links and BIZBOT settings can be changed here. Page text, prices and design are changed in the code.</li>
+        <li>Blog posts, jobs, application links, BIZBOT settings, the wording of BIZEASE DESK tool pages, and the sales tax rate and compliance dates can be changed here. Tool calculations and design are changed in the code.</li>
         <li>You can change the opening paragraph and add headings, lists and links with the toolbar. Use the HTML button for full control.</li>
         <li>
           To hide a post without deleting it, untick <b>Published</b>.
@@ -688,6 +694,303 @@ function Help({ storage }) {
       <p>
         Storage right now: <b>{storage === 'github' ? 'GitHub (live website)' : storage === 'local' ? 'local files (test mode on your computer)' : 'not set up'}</b>
       </p>
+    </div>
+  );
+}
+
+/* ---------------------------------------------------------------- BIZEASE DESK: tool pages */
+const lines = (a) => (Array.isArray(a) ? a.join('\n') : '');
+const paras = (a) => (Array.isArray(a) ? a.join('\n\n') : '');
+const splitLines = (t) => String(t || '').split(/\n+/).map((x) => x.trim()).filter(Boolean);
+const splitParas = (t) => String(t || '').split(/\n\s*\n/).map((x) => x.replace(/\s*\n\s*/g, ' ').trim()).filter(Boolean);
+
+function ToolsTab({ say, onAuth }) {
+  const [items, setItems] = useState(null);
+  const [slug, setSlug] = useState('');
+  const fail = useGuard(onAuth, say);
+  const load = useCallback(async () => {
+    try {
+      setItems((await api('GET', '/api/admin/tools')).items || []);
+    } catch (e) {
+      fail(e);
+    }
+  }, [fail]);
+  useEffect(() => {
+    load();
+  }, [load]);
+  if (slug) return <ToolEditor slug={slug} say={say} fail={fail} onBack={() => { setSlug(''); load(); }} />;
+  return (
+    <div className="adm-card">
+      <h2>BIZEASE DESK tool pages</h2>
+      <p className="sub">Change the wording of a tool page: title, explanation, example, common mistakes and questions. The calculator itself is not changed here. The website updates about a minute after you save.</p>
+      {items === null ? (
+        <p>Loading…</p>
+      ) : (
+        <div style={{ overflowX: 'auto', marginTop: 12 }}>
+          <table>
+            <thead>
+              <tr>
+                <th>Tool</th>
+                <th>Desk</th>
+                <th>Updated</th>
+                <th>Status</th>
+                <th />
+              </tr>
+            </thead>
+            <tbody>
+              {items.map((it) => (
+                <tr key={it.slug}>
+                  <td>
+                    <span className="t">{it.name}</span>
+                    <div style={{ color: 'var(--mute)', fontSize: '.8rem' }}>/desk/{it.desk}/{it.slug}/</div>
+                  </td>
+                  <td>{it.desk}</td>
+                  <td style={{ whiteSpace: 'nowrap' }}>{it.updated}</td>
+                  <td>{it.hidden ? <span className="pill off">Hidden</span> : <span className="pill">Published</span>}</td>
+                  <td style={{ textAlign: 'right' }}>
+                    <button className="btn sm ln" onClick={() => setSlug(it.slug)}>
+                      Edit
+                    </button>
+                  </td>
+                </tr>
+              ))}
+              {items.length === 0 && (
+                <tr>
+                  <td colSpan={5}>No tools found.</td>
+                </tr>
+              )}
+            </tbody>
+          </table>
+        </div>
+      )}
+    </div>
+  );
+}
+
+function ToolEditor({ slug, say, fail, onBack }) {
+  const [t, setT] = useState(null);
+  const [blogs, setBlogs] = useState([]);
+  const [busy, setBusy] = useState(false);
+  useEffect(() => {
+    (async () => {
+      try {
+        const r = await api('GET', '/api/admin/tools/' + slug);
+        const x = r.tool;
+        setBlogs(r.blogs || []);
+        setT({
+          title: x.title || '',
+          h1: x.h1 || '',
+          description: x.description || '',
+          lead: x.lead || '',
+          intro: paras(x.intro),
+          how: lines(x.how),
+          example: x.example || '',
+          mistakes: lines(x.mistakes),
+          faq: (x.faq || []).map((f) => ({ q: f.q, a: f.a })),
+          disclaimer: x.disclaimer || '',
+          blogs: (x.related && x.related.blogs) || [],
+          hidden: x.status === 'hidden',
+          name: x.name,
+        });
+      } catch (e) {
+        fail(e);
+        onBack();
+      }
+    })();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [slug]);
+  if (!t) return <div className="adm-card">Loading…</div>;
+  const set = (k) => (e) => setT({ ...t, [k]: e.target.value });
+  const setFaq = (i, k, v) => setT({ ...t, faq: t.faq.map((f, j) => (j === i ? { ...f, [k]: v } : f)) });
+  async function save() {
+    setBusy(true);
+    try {
+      await api('PUT', '/api/admin/tools/' + slug, { ...t, intro: splitParas(t.intro), how: splitLines(t.how), mistakes: splitLines(t.mistakes) });
+      say('Saved. The tool page updates in about a minute.');
+    } catch (e) {
+      fail(e);
+    }
+    setBusy(false);
+  }
+  return (
+    <div className="adm-card">
+      <div className="bar">
+        <button className="btn sm ln" onClick={onBack}>← All tools</button>
+      </div>
+      <h2>{t.name}</h2>
+      <p className="sub">/{slug}/</p>
+      <label htmlFor="tt">Page title (shown in Google)</label>
+      <input id="tt" type="text" value={t.title} onChange={set('title')} />
+      <label htmlFor="th">Heading on the page</label>
+      <input id="th" type="text" value={t.h1} onChange={set('h1')} />
+      <label htmlFor="td">Short description (for Google)</label>
+      <textarea id="td" rows={2} value={t.description} onChange={set('description')} />
+      <label htmlFor="tl">Line under the heading</label>
+      <textarea id="tl" rows={2} value={t.lead} onChange={set('lead')} />
+      <label htmlFor="ti">Explanation. Leave a blank line between paragraphs</label>
+      <textarea id="ti" rows={8} value={t.intro} onChange={set('intro')} />
+      <label htmlFor="to">How it works. One point per line</label>
+      <textarea id="to" rows={5} value={t.how} onChange={set('how')} />
+      <label htmlFor="te">Worked example</label>
+      <textarea id="te" rows={3} value={t.example} onChange={set('example')} />
+      <label htmlFor="tm">Common mistakes. One per line</label>
+      <textarea id="tm" rows={5} value={t.mistakes} onChange={set('mistakes')} />
+      <label>Questions and answers</label>
+      {t.faq.map((f, i) => (
+        <div className="jobrow" key={i}>
+          <label htmlFor={'fq' + i}>Question {i + 1}</label>
+          <input id={'fq' + i} type="text" value={f.q} onChange={(e) => setFaq(i, 'q', e.target.value)} />
+          <label htmlFor={'fa' + i}>Answer</label>
+          <textarea id={'fa' + i} rows={2} value={f.a} onChange={(e) => setFaq(i, 'a', e.target.value)} />
+          <div className="bar" style={{ marginTop: 8 }}>
+            <button className="btn sm bad" onClick={() => setT({ ...t, faq: t.faq.filter((_, j) => j !== i) })}>Remove</button>
+          </div>
+        </div>
+      ))}
+      <div className="bar">
+        <button className="btn ln" disabled={t.faq.length >= 10} onClick={() => setT({ ...t, faq: [...t.faq, { q: '', a: '' }] })}>+ Add a question</button>
+      </div>
+      <label htmlFor="tdis">Notice shown under the tool</label>
+      <textarea id="tdis" rows={3} value={t.disclaimer} onChange={set('disclaimer')} />
+      <label>Related articles (up to 6)</label>
+      <div style={{ maxHeight: 220, overflowY: 'auto', border: '1px solid var(--line)', borderRadius: 10, padding: '4px 12px' }}>
+        {blogs.map((b) => (
+          <label className="chk" key={b}>
+            <input
+              type="checkbox"
+              checked={t.blogs.includes(b)}
+              disabled={!t.blogs.includes(b) && t.blogs.length >= 6}
+              onChange={(e) => setT({ ...t, blogs: e.target.checked ? [...t.blogs, b] : t.blogs.filter((x) => x !== b) })}
+            />
+            <span>{b}</span>
+          </label>
+        ))}
+      </div>
+      <label className="chk">
+        <input type="checkbox" checked={t.hidden} onChange={(e) => setT({ ...t, hidden: e.target.checked })} />
+        <span>Hide this tool from the website</span>
+      </label>
+      <div className="bar">
+        <button className="btn dk" onClick={save} disabled={busy}>
+          {busy ? 'Saving…' : 'Save tool page'}
+        </button>
+      </div>
+    </div>
+  );
+}
+
+/* ---------------------------------------------------------------- BIZEASE DESK: rates and dates */
+const RULE_LABELS = {
+  agmDaysAfterYearEnd: 'Days after year-end to hold the AGM',
+  agmExtensionDays: 'Days the AGM can be extended',
+  firstAgmMonths: 'Months after incorporation for the first AGM',
+  annualReturnDaysAfterAgm: 'Days after the AGM to file the annual return',
+  accountsDaysAfterAgm: 'Days after the AGM to send the accounts',
+  changeFilingDays: 'Days to report a change in directors or officers',
+};
+
+function RatesTab({ say, onAuth }) {
+  const [v, setV] = useState(null);
+  const [busy, setBusy] = useState(false);
+  const fail = useGuard(onAuth, say);
+  useEffect(() => {
+    (async () => {
+      try {
+        setV(await api('GET', '/api/admin/rates'));
+      } catch (e) {
+        fail(e);
+      }
+    })();
+  }, [fail]);
+  if (!v) return <div className="adm-card">Loading…</div>;
+  const set = (k) => (e) => setV({ ...v, [k]: e.target.value });
+  const setRule = (k, x) => setV({ ...v, rules: { ...v.rules, [k]: x } });
+  const setExt = (i, k, x) => setV({ ...v, extensions: v.extensions.map((e, j) => (j === i ? { ...e, [k]: x } : e)) });
+  async function save() {
+    setBusy(true);
+    try {
+      await api('PUT', '/api/admin/rates', v);
+      say('Saved. The tools update in about a minute.');
+    } catch (e) {
+      fail(e);
+    }
+    setBusy(false);
+  }
+  return (
+    <div className="adm-card">
+      <h2>Rates and dates</h2>
+      <p className="sub">Figures the BIZEASE DESK tools use. Every figure needs a link to where you checked it. Last saved: {v.updated || 'never'}.</p>
+      <h3>Federal sales tax rate</h3>
+      <div className="row">
+        <div>
+          <label htmlFor="rf">Rate (%)</label>
+          <input id="rf" type="text" inputMode="decimal" value={v.federal} onChange={set('federal')} />
+        </div>
+        <div>
+          <label htmlFor="rc">Checked on</label>
+          <input id="rc" type="date" value={v.federalChecked} onChange={set('federalChecked')} />
+        </div>
+      </div>
+      <label htmlFor="rs">Where you checked it (https:// link)</label>
+      <input id="rs" type="url" value={v.federalSource} onChange={set('federalSource')} />
+      <h3 style={{ marginTop: 22 }}>Company compliance rules (SECP)</h3>
+      <div className="row">
+        {Object.keys(RULE_LABELS).map((k) => (
+          <div key={k}>
+            <label htmlFor={'ru' + k}>{RULE_LABELS[k]}</label>
+            <input id={'ru' + k} type="text" inputMode="numeric" value={v.rules[k] ?? ''} onChange={(e) => setRule(k, e.target.value)} />
+          </div>
+        ))}
+      </div>
+      <h3 style={{ marginTop: 22 }}>Deadline extensions</h3>
+      <p className="sub">When FBR or SECP moves a due date, add it here and the compliance calendars show the new date. The code must match the original deadline, for example itr-ind-2026 for the 2026 individual return or itr-co-2026 for the 2026 company return.</p>
+      {v.extensions.map((x, i) => (
+        <div className="jobrow" key={i}>
+          <div className="row">
+            <div>
+              <label htmlFor={'ek' + i}>Code</label>
+              <input id={'ek' + i} type="text" value={x.key} onChange={(e) => setExt(i, 'key', e.target.value)} />
+            </div>
+            <div>
+              <label htmlFor={'ew' + i}>What was extended</label>
+              <input id={'ew' + i} type="text" value={x.what} onChange={(e) => setExt(i, 'what', e.target.value)} />
+            </div>
+          </div>
+          <div className="row">
+            <div>
+              <label htmlFor={'eo' + i}>Original date</label>
+              <input id={'eo' + i} type="date" value={x.original} onChange={(e) => setExt(i, 'original', e.target.value)} />
+            </div>
+            <div>
+              <label htmlFor={'et' + i}>New date</label>
+              <input id={'et' + i} type="date" value={x.extendedTo} onChange={(e) => setExt(i, 'extendedTo', e.target.value)} />
+            </div>
+          </div>
+          <label htmlFor={'en' + i}>Note</label>
+          <input id={'en' + i} type="text" value={x.note || ''} onChange={(e) => setExt(i, 'note', e.target.value)} />
+          <label htmlFor={'es' + i}>Source link (https://)</label>
+          <input id={'es' + i} type="url" value={x.source} onChange={(e) => setExt(i, 'source', e.target.value)} />
+          <div className="bar" style={{ marginTop: 8 }}>
+            <button className="btn sm bad" onClick={() => setV({ ...v, extensions: v.extensions.filter((_, j) => j !== i) })}>Remove</button>
+          </div>
+        </div>
+      ))}
+      <div className="bar">
+        <button className="btn ln" disabled={v.extensions.length >= 30} onClick={() => setV({ ...v, extensions: [...v.extensions, { key: '', what: '', original: '', extendedTo: '', note: '', source: '' }] })}>
+          + Add an extension
+        </button>
+      </div>
+      <div className="row" style={{ marginTop: 14 }}>
+        <div>
+          <label htmlFor="cc">Calendar rules and dates checked on</label>
+          <input id="cc" type="date" value={v.calChecked} onChange={set('calChecked')} />
+        </div>
+      </div>
+      <div className="bar">
+        <button className="btn dk" onClick={save} disabled={busy}>
+          {busy ? 'Saving…' : 'Save rates and dates'}
+        </button>
+      </div>
     </div>
   );
 }
