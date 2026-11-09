@@ -183,3 +183,28 @@
 .dk-score b{font-size:2.4rem;line-height:1}.dk-score span{font-weight:600}
 .dk-score.bad{border-color:#b3261e}.dk-score.bad b{color:#b3261e}
 .dk-row small{font-weight:400}
+/* CV builder and cover letter */
+.dk-row .dk-wide{grid-column:1/-1}
+.cv-form-item{border-top:1px dashed var(--line);padding-top:12px;margin-top:12px}
+.cv-checks{background:var(--bg);border:1px solid var(--line);border-radius:12px;padding:10px 16px;margin:12px 0}.cv-checks ul{margin:6px 0 0;padding-left:18px}
+.cv{--cv:#1d5c3d;font-family:Arial,Helvetica,sans-serif;font-size:13px;line-height:1.45;color:#111}
+.cv h2{font-size:26px;margin:0 0 2px;color:var(--cv);letter-spacing:0}
+.cv h3{font-size:13px;margin:0 0 6px;padding-bottom:3px;border-bottom:2px solid var(--cv);color:var(--cv);text-transform:none;letter-spacing:.3px}
+.cv p{margin:0 0 6px}.cv ul{margin:0;padding-left:18px}.cv li{margin:0 0 3px}
+.cv-sec{margin-bottom:14px;break-inside:avoid-page}
+.cv-item{margin-bottom:10px;break-inside:avoid}
+.cv-hd{display:flex;justify-content:space-between;gap:12px}.cv-hd span{color:#555;white-space:nowrap}
+.cv-sub{color:#444;margin-bottom:3px}
+.cv-role{font-size:15px;color:#333}
+.cv-line{color:#333;overflow-wrap:anywhere}
+.cv-head{display:flex;gap:16px;align-items:center;margin-bottom:14px;padding-bottom:10px;border-bottom:3px solid var(--cv)}
+.cv-photo{width:96px;height:96px;object-fit:cover;border-radius:50%}
+.cv-tags{list-style:none;padding:0!important;display:flex;flex-wrap:wrap;gap:4px 6px}.cv-tags li{background:#eef1ef;border-radius:4px;padding:2px 7px;margin:0}
+.cv-pd{margin:0}.cv-pd div{margin-bottom:3px}.cv-pd dt{font-weight:700;display:inline}.cv-pd dt:after{content:': '}.cv-pd dd{display:inline;margin:0}
+.cv-grid{display:grid;grid-template-columns:minmax(0,32%) minmax(0,1fr);gap:20px;align-items:start}
+.cv-side{background:#f1f4f2;padding:16px;border-radius:6px;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+.cv-side .cv-photo{display:block;margin:0 auto 10px}.cv-side h2{font-size:21px}
+.cv-contact{list-style:none;padding:0!important;margin-bottom:12px!important;overflow-wrap:anywhere}
+@media(max-width:600px){.cv-grid{grid-template-columns:minmax(0,1fr)}.cv-head{flex-direction:column;align-items:flex-start}.cv-hd{flex-direction:column;gap:0}}
+.cl{font-size:14px;line-height:1.6}.cl p{margin:0 0 12px}
+@media print{.cv-side{background:#f1f4f2!important}.dk-sheet.cv,.dk-sheet.cl{font-size:12px}}

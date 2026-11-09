@@ -1,0 +1,63 @@
+{
+  "slug": "cv-builder-pakistan",
+  "desk": "life",
+  "component": "cv",
+  "name": "CV Builder",
+  "h1": "CV Builder",
+  "title": "Free CV Builder: Make a Print-Ready CV in Your Browser",
+  "description": "Build a clean CV with a classic or sidebar layout, optional photo and your choice of colour. Print or save it as a PDF. Nothing is uploaded.",
+  "updated": "2026-11-03",
+  "lead": "Fill in your details, pick a layout and save your CV as a PDF in a few minutes.",
+  "profile": false,
+  "intro": [
+    "A CV is read in seconds, so it must be clear. This builder puts your details into a clean, printable layout. Choose a classic one-column CV or a sidebar CV, pick an accent colour and add a photo if the job asks for one.",
+    "Everything you type stays in your browser. You can save a copy in this browser to edit later, and delete it at any time. Press print and choose Save as PDF to get a file you can email."
+  ],
+  "how": [
+    "Fill in your details, then your experience with the latest job first.",
+    "Write one achievement per line. They become bullet points.",
+    "Choose a layout and colour. The preview on the page is exactly what prints.",
+    "Press Print or save as PDF. Choose Save as PDF as the destination and turn off headers and footers."
+  ],
+  "example": "Instead of 'Responsible for sales', write 'Grew monthly sales of a 5-person team by agreeing new accounts with 12 shops'. Numbers and results show what you actually did. Only use figures that are true for you.",
+  "mistakes": [
+    "Writing duties instead of results.",
+    "Sending the same CV to every job. Change the profile and skills to match the advert.",
+    "Typing mistakes. Read it aloud once.",
+    "Adding ID numbers or details that the employer does not need.",
+    "A long CV. One or two pages is enough for most people."
+  ],
+  "faq": [
+    {
+      "q": "Should I add a photo?",
+      "a": "Follow the job advertisement. Some employers ask for a photo and many do not. The photo is optional here."
+    },
+    {
+      "q": "Is my CV uploaded anywhere?",
+      "a": "No. It stays in your browser. If you press Save in this browser, a copy is kept on this device only, without the photo."
+    },
+    {
+      "q": "How do I get a PDF?",
+      "a": "Press Print or save as PDF and choose Save as PDF as the printer. Turn off headers and footers."
+    },
+    {
+      "q": "Will it pass employer software?",
+      "a": "We cannot promise that. Plain layouts with real text usually copy and upload better than designed ones, and the classic layout is the plainer of the two."
+    }
+  ],
+  "related": {
+    "tools": [
+      "cover-letter-generator-pakistan",
+      "gpa-cgpa-calculator-pakistan",
+      "percentage-calculator-pakistan"
+    ],
+    "blogs": [],
+    "services": [
+      {
+        "href": "/business-consultants-islamabad/",
+        "label": "Business consultants in Islamabad"
+      }
+    ]
+  },
+  "disclaimer": "This tool formats the details you type. It does not check facts, guarantee interviews or give career advice. Read your CV and letter carefully before you send them."
+}

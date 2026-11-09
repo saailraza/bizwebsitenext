@@ -1,0 +1,63 @@
+{
+  "slug": "cover-letter-generator-pakistan",
+  "desk": "life",
+  "component": "coverletter",
+  "name": "Cover Letter Generator",
+  "h1": "Cover Letter Generator",
+  "title": "Free Cover Letter Generator for Job Applications",
+  "description": "Write a clear cover letter in minutes. You add your own message and the tool builds the opening, closing and layout. Print or save as PDF. Free.",
+  "updated": "2026-11-03",
+  "lead": "Add the job details and your own points to get a clean one-page cover letter.",
+  "profile": false,
+  "intro": [
+    "A cover letter says why you are right for this job. Employers read many that sound the same, so the middle of yours should be in your own words.",
+    "This tool sets out the layout and writes a short, polite opening and closing. You write what you did and why you want the role. It uses 'Yours sincerely' when you address a named person and 'Yours faithfully' when you do not. Everything stays in your browser."
+  ],
+  "how": [
+    "Enter your details and the job and company.",
+    "If you can find the name of the person hiring, add it. It reads better than 'Hiring Manager'.",
+    "Write two or three short paragraphs: why this company, your most relevant experience, and a strength that matches the advert.",
+    "Check the notes under the form, then print or save as PDF."
+  ],
+  "example": "Middle paragraph: 'For the past four years I have run accounts payable for a distributor with 30 suppliers. I cut late payments by moving approvals online. The role at your company needs the same skills.' Write only what is true for you.",
+  "mistakes": [
+    "Copying a template word for word.",
+    "Repeating your CV instead of adding to it.",
+    "Writing to the wrong company name.",
+    "Going over one page.",
+    "Not checking spelling of the person's name."
+  ],
+  "faq": [
+    {
+      "q": "Do I need a cover letter?",
+      "a": "Only if the advertisement asks for one, or you want to explain something your CV does not. When in doubt, send one."
+    },
+    {
+      "q": "How long should it be?",
+      "a": "One page is usually enough."
+    },
+    {
+      "q": "Is my letter saved or sent anywhere?",
+      "a": "No. It stays in your browser. Print or save it as a PDF."
+    },
+    {
+      "q": "Does it write the letter for me?",
+      "a": "No. It formats your points and adds a standard opening and closing. The content is yours."
+    }
+  ],
+  "related": {
+    "tools": [
+      "cv-builder-pakistan",
+      "salary-certificate-generator-pakistan",
+      "percentage-calculator-pakistan"
+    ],
+    "blogs": [],
+    "services": [
+      {
+        "href": "/business-consultants-islamabad/",
+        "label": "Business consultants in Islamabad"
+      }
+    ]
+  },
+  "disclaimer": "This tool formats the details you type. It does not check facts, guarantee interviews or give career advice. Read your CV and letter carefully before you send them."
+}
